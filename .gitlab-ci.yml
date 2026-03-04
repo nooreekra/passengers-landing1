@@ -1,0 +1,87 @@
+image: node:20
+
+stages:
+  - build
+  - deploy
+
+variables:
+  BUILD_ZIP: build-artifact.zip
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+
+# =========================
+# BUILD (TEST)
+# =========================
+build_test:
+  stage: build
+  script:
+    - cp .env.development .env.local
+    - npm ci
+    - npm run build
+    - apt-get update && apt-get install -y zip
+    - zip -r $BUILD_ZIP .next public package.json package-lock.json node_modules
+  artifacts:
+    paths:
+      - $BUILD_ZIP
+    expire_in: 1 hour
+  only:
+    - dev
+    - devops
+
+# =========================
+# BUILD (PROD)
+# =========================
+build_prod:
+  stage: build
+  script:
+    - cp .env.production .env.local
+    - npm ci
+    - npm run build
+    - apt-get update && apt-get install -y zip
+    - zip -r $BUILD_ZIP .next public package.json package-lock.json node_modules
+  artifacts:
+    paths:
+      - $BUILD_ZIP
+    expire_in: 1 hour
+  only:
+    - main
+
+# =========================
+# DEPLOY TO TEST
+# =========================
+deploy_to_test:
+  stage: deploy
+  image: mcr.microsoft.com/azure-cli
+  dependencies:
+    - build_test
+  script:
+    - az login --service-principal --username "efd755b2-5ecf-48fe-9c8c-9418fc81df7e" --password "vW58Q~NK2ZxS8LINVthYD_7MF2~24Nsl2D14UbZh" --tenant "3a87e629-16e6-4a8c-b5c8-fd242b2fec45"
+    - az account set --subscription "e96d12c1-6021-4910-996f-9d485e595302"
+    - az webapp deploy --name "app-ims-passenger-web-test-neu" --resource-group "rg-ims-test-neu" --src-path $BUILD_ZIP --type zip
+  environment:
+    name: test
+  when: manual
+  only:
+    - dev
+    - devops
+
+# =========================
+# DEPLOY TO PROD
+# =========================
+deploy_to_prod:
+  stage: deploy
+  image: mcr.microsoft.com/azure-cli
+  dependencies:
+    - build_prod
+  script:
+    - az login --service-principal --username "efd755b2-5ecf-48fe-9c8c-9418fc81df7e" --password "vW58Q~NK2ZxS8LINVthYD_7MF2~24Nsl2D14UbZh" --tenant "3a87e629-16e6-4a8c-b5c8-fd242b2fec45"
+    - az account set --subscription "e86d0a2c-10b9-436e-844d-1ed9582adec1"
+    - az webapp deploy --name "app-ims-passenger-web-prod-neu" --resource-group "rg-ims-prod-neu" --src-path $BUILD_ZIP --type zip
+  environment:
+    name: prod
+  when: manual
+  only:
+    - main

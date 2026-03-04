@@ -1,0 +1,1587 @@
+{
+  "nav": {
+    "home": "Главная",
+    "profile": "Профиль",
+    "analytics": "Аналитика",
+    "tutorials": "Видеоуроки",
+    "subscription": "Подписка",
+    "documents": "Документы и счета",
+    "requisites": "Реквизиты",
+    "eWallet": "E-wallet",
+    "settings": "Настройки",
+    "faq": "FAQ"
+  },
+  "documents": {
+    "title": "Документы",
+    "subtitle": "Управление документами авиакомпании",
+    "loading": "Загрузка документов...",
+    "no_documents": "Документы не найдены",
+    "name": "Название",
+    "type": "Тип",
+    "description": "Описание",
+    "actions": "Действия",
+    "download": "Скачать"
+  },
+  "invoices": {
+    "title": "Счета",
+    "subtitle": "Управление счетами и накладными",
+    "loading": "Загрузка счетов...",
+    "no_invoices": "Счета не найдены",
+    "name": "Название",
+    "date": "Дата создания",
+    "invoice": "Счета на оплату",
+    "esf": "ЭСФ",
+    "avr": "АВР",
+    "actions": "Действия",
+    "download": "Скачать",
+    "downloadAll": "Скачать все",
+    "available": "Доступно",
+    "notAvailable": "Недоступно"
+  },
+  "documentsAndInvoices": {
+    "title": "Документы и счета",
+    "subtitle": "Управление документами и счетами",
+    "selectTab": "Выберите раздел для просмотра содержимого"
+  },
+  "contact": "Связаться с нами",
+  "logout": "Выйти",
+  "language": "Язык",
+  "promo_view": "Промо, детальный обзор",
+  "promo": {
+    "search": "Поиск",
+    "search_tooltip": "Поиск по: AIN номера, Тревел Агентство, IATA Validator, PNR номер, Статус",
+    "search_promo_name_tooltip": "Поиск по названию промо",
+    "choose_date": "Выберите дату",
+    "reset": "Сбросить",
+    "add_promo": "Новая акция",
+    "loading_promos": "Загрузка акций...",
+    "promo_list": "Список акций",
+    "promo_period": "Период акции",
+    "booking_period": "Период бронирования",
+    "target_countries": "Целевые страны",
+    "target_country": "Целевая страна",
+    "target_audience_country": "Целевая аудитория — Страна",
+    "total_transactions": "Всего транзакций",
+    "start_date": "Дата начала",
+    "end_date": "Дата окончания",
+    "select_countries": "Выберите страны",
+    "choose_countries": "Выберите страны",
+    "no_countries_found": "Страны не найдены",
+    "saving": "Сохранение...",
+    "ain_number": "AIN номер",
+    "name": "Имя",
+    "membership_status": "Статус членства",
+    "transaction_rate": "Ставка транзакции",
+    "transaction_date": "Дата транзакции",
+    "transaction_amount": "Сумма транзакции",
+    "reward_amount": "Сумма вознаграждения",
+    "miles_amount": "Количество миль",
+    "status": "Статус",
+    "transaction_number": "Номер транзакции",
+    "vat_amount": "Сумма НДС",
+    "reward": "Вознаграждение",
+    "paid": "оплачено",
+    "accrued": "начислено",
+    "origin_destination": "Пункты Отправления и Назначения",
+    "travel_period": "Период путешествия",
+    "target_audience": "Целевая аудитория",
+    "segments": "Маршруты",
+    "ancillaries": "Доп.Услуги",
+    "target": "Таргет",
+    "rewards_total": "Вознаграждение, Всего",
+    "rewards_paid": "Вознаграждение, Начислено",
+    "ims_fees": "Сборы IMS",
+    "loading": "Загрузка...",
+    "travel_agency": "Тревел Агентство",
+    "travel_agent": "Авиа-агент",
+    "booked": "Забронировано",
+    "flown": "Использовано",
+    "loading_promo": "Загрузка промо...",
+    "promo_not_found": "Промо не найден",
+    "back": "Назад",
+    "promo_description": "Описание Акции",
+    "read_promo_rules": "Читать правила акции",
+    "countries": "Страны",
+    "cities": "Города",
+    "time_periods": "Временные Периоды",
+    "booking": "Бронирование",
+    "travel": "Путешествие",
+    "download_report": "Скачать Отчет",
+    "download_limit_tooltip": "Лимит на скачивание 5000 записей",
+    "exporting": "Экспорт...",
+    "ain_numbers": "AIN номера",
+    "travel_agent_name": "Имя авиа-агента",
+    "subagent": "Субагентство",
+    "iata_validator": "IATA Валидатор",
+    "iata_pcc": "IATA PCC",
+    "title": "Заголовок",
+    "passenger_name": "Имя Пассажира",
+    "pnr_number": "Номер PNR",
+    "booking_date": "Дата бронирования",
+    "airline_code": "Код авиакомпании",
+    "flight_number": "Номер рейса",
+    "travel_date": "Дата Вылета",
+    "booking_class": "Класс Обслуживания",
+    "rbd": "RBD",
+    "fare_family": "Семейство Тарифов",
+    "iata_number": "номер IATA",
+    "ticket_number": "номер билета",
+    "fare": "Тариф",
+    "taxes": "Сборы",
+    "ancillary_type": "Вид Доп. Услуги",
+    "ancillary_revenue": "Доход по доп. услугам",
+    "reward_type": "Вознаграждение начисляется за",
+    "reward_amount": "Сумма Вознаграждения",
+    "segments_total": "Всего Маршрутов",
+    "individual_target": "Индивидуальный Таргет",
+    "reward_paid_per": "Вознаграждение начисляется за",
+    "basic_information": "Основная информация",
+    "promo_name": "Название акции",
+    "untitled": "Без названия",
+    "edit_promo": "Редактировать акцию",
+    "change_status": "Изменить статус",
+    "activate_promo_title": "Активировать промо",
+    "unpublish_promo_title": "Снять с публикации",
+    "current_status": "Текущий статус",
+    "current_status_with_value": "Текущий статус: {{status}}",
+    "choose_status": "Перевести в другой статус?",
+    "select_status": "Выберите статус",
+    "activate": "Активировать",
+    "complete": "Завершить",
+    "delete_promo": "Удалить промо",
+    "delete_promo_title": "Удалить акцию",
+    "delete_promo_text": "Вы уверены, что хотите удалить эту акцию? Это действие нельзя отменить.",
+    "enter_promo_name": "Введите название акции",
+    "enter_promo_description": "Введите описание акции",
+    "enter_promo_rules": "Введите правила акции",
+    "promo_image": "Изображение акции",
+    "image_preview": "Предварительный просмотр",
+    "fetch_promo_failed": "Не удалось загрузить акцию",
+    "update_promo_failed": "Не удалось обновить акцию",
+    "promo_updated_successfully": "Акция успешно обновлена",
+    "finish_editing": "Завершить редактирование",
+    "add_target_audience": "Добавить целевую аудиторию",
+    "select_country": "Выберите страну",
+    "select_cities": "Выберите города",
+    "select_city": "Выберите город",
+    "select_agencies": "Выберите агентства",
+    "select_countries": "Выберите страны",
+    "select_flight_numbers": "Выберите номера рейсов",
+    "select_audience": "Выберите аудиторию",
+    "select_paid_per": "Выберите за что начисляется",
+    "select_currency": "Выберите валюту",
+    "enter_amount": "Введите сумму",
+    "select_booking_class_segments": "Выберите сегменты класса бронирования",
+    "origin_countries": "Страны отправления",
+    "destination_countries": "Страны назначения",
+    "origin_cities": "Города отправления",
+    "destination_cities": "Города назначения",
+    "flight_numbers": "Номера рейсов",
+    "flight_numbers_placeholder": "XX001\nXX002",
+    "flight_numbers_hint": "Введите один номер рейса на строку",
+    "booking_class_segments": "Сегменты класса бронирования",
+    "required": "Обязательное поле",
+    "end_date_must_be_after_start_date": "Дата окончания должна быть после даты начала",
+    "select_at_least_one_origin_country": "Выберите хотя бы одну страну отправления",
+    "select_at_least_one_destination_country": "Выберите хотя бы одну страну назначения",
+    "promo_description_short": "Краткое описание акции",
+    "visual_materials": "Визуальные материалы",
+    "image_aspect_ratio_tooltip": "Рекомендуемое соотношение сторон 3.3:1 (например, 1200x364px, 1320x400px, 1650x500px). Ширина должна быть больше высоты в 3.3 раза.",
+    "image_aspect_ratio_tooltip_mobile": "Рекомендуемое соотношение сторон 1:2 (например, 600x1200px, 750x1500px). Высота должна быть в 2 раза больше ширины.",
+    "promo_rules": "Правила Акции",
+    "rewards_description": "Вознаграждение",
+    "from": "С",
+    "to": "По", 
+    "rewards": "Таргет",
+    "promo_description_rules": "Описание правил акции",
+    "continue": "Продолжить",
+    "save": "Сохранить",
+    "complete_later": "Завершить позже",
+    "uploading": "Загрузка…",
+    "create_promo_failed": "Ошибка создания акции",
+    "target_audience_n": "Целевая аудитория {{n}}",
+    "target_country_n": "Целевая страна {{n}}",
+    "select_travel_agencies": "Выберите турагентства",
+    "add_new_target_audience": "+ Добавить новую целевую аудиторию",
+    "add_new_target_country": "+ Добавить новую целевую страну",
+    "dates": "Даты",
+    "till": "По",
+    "origin": "Отправление",
+    "destination": "Назначение",
+    "select_flights": "Выберите рейсы",
+    "partner_carriers": "Партнерские перевозчики",
+    "additional_rules": "Дополнительные правила",
+    "interline_partners": "Партнеры Interline",
+    "codeshare_partners": "Партнеры Codeshare",
+    "international_only": "Только международные рейсы",
+    "is_bidirectional": "В обе стороны",
+    "select_at_least_one_country": "Выберите хотя бы одну страну",
+    "select_at_least_one_city": "Выберите хотя бы один город",
+    "from_before_till": "'С' должно быть раньше 'По'",
+    "failed_to_submit_rule": "Не удалось сохранить правило",
+    "remove": "Удалить",
+    "select_target_audience": "Выберите целевую аудиторию",
+    "target_audience_subscription_tooltip": "Для получения списка опций необходимо подписаться на модули: Travel Agency / Travel Agent Module, Corporate Client Module, Passenger Module",
+    "invalid_audience_selection": "Пожалуйста, выберите валидную целевую аудиторию",
+    "select_target_audience_to_save": "Необходимо выбрать целевую аудиторию для сохранения",
+    "select_incentive_type": "Выберите тип поощрения",
+    "add_reward": "Добавить вознаграждение",
+    "add_threshold_set": "Добавить пороговый набор",
+    "reward": "Вознаграждение",
+    "select_segment": "Выберите сегмент",
+    "number": "Число",
+    "usd_or_percent": "$ / %",
+    "baseline_segments": "Базовое значение (сегменты)",
+    "paid_when_baseline": "Выплата при достижении базового значения",
+    "thresholds": "Пороги",
+    "to_or_inf": "До (или 0 = ∞)",
+    "add_segment": "Добавить сегмент",
+    "add_threshold": "Добавить порог",
+    "target_agency": "Целевое агентство",
+    "success_promo_created": "Промо «{{name}}» успешно создано! Подробнее на главной странице",
+    "failed_to_submit_incentives": "Не удалось сохранить настройки поощрения",
+    "select_option": "Выберите значение",
+    "baseline": "Базовое значение",
+    "target_audience_num": "Аудитория {{num}}",
+    "step_description": "Описание",
+    "step_target_audience": "Целевые страны",
+    "step_promo_rules": "Правила промо",
+    "step_rewards_and_fees": "Награды и комиссии",
+    "no_access": {
+      "title": "У вас нет доступа к промо",
+      "subtitle": "Попросите администратора выдать права на чтение."
+    },
+    "empty": {
+      "title": "Здесь пока нет промо-акций",
+      "subtitle": "Создайте новое промо"
+    },
+    "status": {
+      "Active": "Активный",
+      "Completed": "Завершен",
+      "Unpublished": "Неопубликован"
+    },
+    "all_countries": "Все страны",
+    "all_cities": "Все города",
+    "status_header": "Статус",
+    "TravelAgency": "Тревел Агентство",
+    "TravelAgent": "Авиа-агент",
+    "BookingClass": "Класс Обслуживания",
+    "RBD": "RBD",
+    "FareFamily": "Семейство Тарифов",
+    "Ancillary": "Доп.услуги"
+  },
+  "auth": {
+    "Travel Agent": "Авиа-агент",
+    "Travel Agency": "Тревел Агентство",
+    "Airline": "Авиакомпания",
+    "login": "Войти",
+    "register": "Зарегистрироваться",
+    "username": "Имя пользователя",
+    "password": "Пароль",
+    "loading": "Загрузка...",
+    "loginSuccess": "Вход выполнен успешно!",
+    "loginFail": "Ошибка входа",
+    "fillFields": "Пожалуйста, заполните необходимые поля",
+    "forgot": "Забыли пароль?",
+    "email": "e-mail",
+    "firstName": "Имя",
+    "lastName": "Фамилия",
+    "phone": "Телефон",
+    "commentOptional": "Комментарий (необязательно)",
+    "registerAgentTitle": "Регистрация авиа-агента",
+    "registerSuccess": "Регистрация прошла успешно",
+    "registerFail": "Ошибка регистрации",
+    "passwordShort": "Пароль должен содержать не менее 6 символов",
+    "modal": {
+      "welcome": "Добро пожаловать",
+      "signInToAccount": "Войдите в свой аккаунт",
+      "signUp": "Зарегистрируйтесь",
+      "confirmEmail": "Подтвердите ваш email",
+      "forgotPassword": "Восстановление пароля",
+      "resetPassword": "Сброс пароля",
+      "signIn": "Войти",
+      "signUpButton": "Регистрация",
+      "errors": {
+        "invalidEmailOrPassword": "Неверный email или пароль",
+        "accessDenied": "Доступ запрещен. Обратитесь к администратору",
+        "serverError": "Ошибка сервера. Попробуйте позже",
+        "networkError": "Ошибка сети. Проверьте подключение к интернету",
+        "loginError": "Произошла ошибка при входе. Попробуйте снова.",
+        "checkData": "Проверьте правильность введенных данных",
+        "userExists": "Пользователь с таким email уже существует",
+        "registrationError": "Произошла ошибка при регистрации. Попробуйте снова.",
+        "invalidCode": "Неверный код подтверждения",
+        "codeNotFound": "Код подтверждения не найден или истек",
+        "confirmationError": "Произошла ошибка при подтверждении. Попробуйте снова.",
+        "invalidEmail": "Неверный email",
+        "userNotFound": "Пользователь с таким email не найден",
+        "invalidTokenOrPassword": "Неверный код или пароль",
+        "tokenNotFound": "Код не найден или истек",
+        "passwordResetRequestError": "Произошла ошибка при запросе сброса пароля. Попробуйте снова.",
+        "passwordResetError": "Произошла ошибка при сбросе пароля. Попробуйте снова."
+      },
+      "success": {
+        "loginSuccess": "Вход выполнен успешно! Перенаправление...",
+        "registrationSuccess": "Регистрация прошла успешно! Проверьте email для получения кода подтверждения.",
+        "emailConfirmed": "Email успешно подтвержден! Перенаправление...",
+        "emailConfirmedSimple": "Email успешно подтвержден!",
+        "passwordResetLinkSent": "Ссылка для сброса пароля отправлена на ваш email",
+        "passwordResetSuccess": "Пароль успешно сброшен!"
+      }
+    },
+    "loginForm": {
+      "email": "Email",
+      "password": "Пароль",
+      "enterEmail": "Введите ваш email",
+      "enterPassword": "Введите ваш пароль",
+      "signIn": "Войти",
+      "signingIn": "Вход...",
+      "forgotPassword": "Забыли пароль?",
+      "errors": {
+        "emailRequired": "Email обязателен",
+        "emailInvalid": "Введите корректный email",
+        "passwordRequired": "Пароль обязателен",
+        "passwordMinLength": "Пароль должен содержать не менее 6 символов"
+      }
+    },
+    "registrationForm": {
+      "firstName": "Имя",
+      "lastName": "Фамилия",
+      "email": "Email",
+      "password": "Пароль",
+      "phone": "Телефон",
+      "country": "Страна",
+      "enterFirstName": "Введите ваше имя",
+      "enterLastName": "Введите вашу фамилию",
+      "enterEmail": "Введите ваш email",
+      "enterPassword": "Введите ваш пароль",
+      "enterPhone": "Введите ваш телефон",
+      "enterCountry": "Введите вашу страну",
+      "selectCountry": "Выберите страну",
+      "loadingCountries": "Загрузка стран...",
+      "signUp": "Зарегистрироваться",
+      "registering": "Регистрация...",
+      "errors": {
+        "firstNameRequired": "Имя обязательно",
+        "firstNameLatinOnly": "Имя должно содержать только латинские буквы",
+        "lastNameRequired": "Фамилия обязательна",
+        "lastNameLatinOnly": "Фамилия должна содержать только латинские буквы",
+        "emailRequired": "Email обязателен",
+        "emailInvalid": "Введите корректный email",
+        "passwordRequired": "Пароль обязателен",
+        "passwordMinLength": "Пароль должен содержать не менее 6 символов",
+        "phoneRequired": "Телефон обязателен",
+        "countryRequired": "Страна обязательна"
+      }
+    },
+    "confirmForm": {
+      "confirmationCode": "Код подтверждения",
+      "enterCode": "Введите код из email",
+      "codeSentTo": "Код отправлен на",
+      "confirm": "Подтвердить",
+      "confirming": "Подтверждение...",
+      "back": "Назад",
+      "errors": {
+        "codeRequired": "Код подтверждения обязателен",
+        "codeMinLength": "Код должен содержать не менее 4 символов"
+      }
+    },
+    "forgotPasswordForm": {
+      "email": "Email",
+      "enterEmail": "Введите ваш email",
+      "instructions": "Мы отправим вам ссылку для сброса пароля на указанный email",
+      "sendResetLink": "Отправить ссылку",
+      "sending": "Отправка...",
+      "back": "Назад",
+      "errors": {
+        "emailRequired": "Email обязателен",
+        "emailInvalid": "Введите корректный email"
+      }
+    },
+    "resetPasswordForm": {
+      "token": "Код",
+      "enterToken": "Введите код из email",
+      "tokenInstructions": "Введите код, который был отправлен на ваш email",
+      "newPassword": "Новый пароль",
+      "enterNewPassword": "Введите новый пароль",
+      "confirmPassword": "Подтвердите пароль",
+      "enterConfirmPassword": "Подтвердите новый пароль",
+      "resetPassword": "Сбросить пароль",
+      "resetting": "Сброс пароля...",
+      "back": "Назад",
+      "errors": {
+        "tokenRequired": "Код обязателен",
+        "passwordRequired": "Пароль обязателен",
+        "passwordMinLength": "Пароль должен содержать не менее 6 символов",
+        "confirmPasswordRequired": "Подтверждение пароля обязательно",
+        "passwordsDoNotMatch": "Пароли не совпадают"
+      }
+    },
+    "agreementsModal": {
+      "title": "Соглашения",
+      "subtitle": "Пожалуйста, ознакомьтесь с соглашениями перед регистрацией",
+      "loading": "Загрузка соглашений...",
+      "loadError": "Не удалось загрузить соглашения. Попробуйте позже.",
+      "noAgreements": "Соглашения не найдены",
+      "continueRegistration": "Продолжить регистрацию",
+      "document": "Документ",
+      "of": "из",
+      "previous": "Назад",
+      "next": "Далее",
+      "version": "Версия",
+      "updated": "Обновлено",
+      "read": "Прочитано",
+      "scrollToEnd": "Прокрутите до конца, чтобы отметить как прочитанное",
+      "readProgress": "Прочитано",
+      "acceptAndContinue": "Принять и продолжить регистрацию",
+      "pleaseReadAll": "Пожалуйста, прочитайте все соглашения",
+      "clickToView": "Нажмите, чтобы просмотреть документ",
+      "close": "Закрыть"
+    },
+    "changePassword": {
+      "title": "Смена Пароля",
+      "successTitle": "Пароль успешно изменен",
+      "currentPassword": "Текущий Пароль",
+      "newPassword": "Новый Пароль",
+      "confirmPassword": "Подтвердите Новый Пароль",
+      "cancel": "Отмена",
+      "submit": "Сменить Пароль",
+      "saving": "Сохранение...",
+      "successMessage": "Пароль успешно изменен!",
+      "autoCloseMessage": "Модальное окно закроется автоматически",
+      "requirements": "Требования к паролю:",
+      "minLength": "Минимум 8 символов",
+      "hasUpperCase": "Заглавная буква",
+      "hasLowerCase": "Строчная буква",
+      "hasNumber": "Цифра",
+      "hasSpecialChar": "Специальный символ",
+      "errors": {
+        "enterCurrentPassword": "Введите текущий пароль",
+        "passwordNotMeetRequirements": "Пароль не соответствует требованиям безопасности",
+        "passwordsDoNotMatch": "Пароли не совпадают",
+        "newPasswordSameAsOld": "Новый пароль должен отличаться от текущего",
+        "passwordNotMeetRequirementsField": "Пароль не соответствует требованиям",
+        "passwordsDoNotMatchField": "Пароли не совпадают",
+        "genericError": "Произошла ошибка при смене пароля"
+      }
+    }
+  },
+  "demo": {
+    "title": "Оставьте заявку на демо",
+    "companyName": "Название компании",
+    "department": "Департамент",
+    "team": "Филиал",
+    "jobTitle": "Должность",
+    "firstName": "Имя",
+    "lastName": "Фамилия",
+    "phoneNumber": "Телефон",
+    "email": "e-mail",
+    "send": "Отправить",
+    "sending": "Отправка...",
+    "sent": "Заявка отправлена!",
+    "errorSend": "Не удалось отправить заявку.",
+    "fillAllFields": "Пожалуйста, заполните все поля.",
+    "emailInvalid": "Введите корректный e-mail адрес.",
+    "latinOnly": "Поле должно содержать только латинские символы.",
+    "validationTooltip": "Все поля должны быть заполнены латинскими символами (A-Z, a-z, 0-9, пробелы и основные знаки препинания)."
+  },
+  "hero": {
+    "agent": {
+      "title": "Станьте частью глобального движения",
+      "subtitle": "объединенного вокруг авиалиний"
+    },
+    "agency": {
+      "title": "Развивайте свой бизнес",
+      "subtitle": "на основе долгосрочного партнерства"
+    },
+    "airline": {
+      "title": "Присоединяйтесь",
+      "title1": "к лидерам продаж и маркетинга",
+      "subtitle": "выведите ваши продажи и маркетинг на новый уровень"
+    },
+    "access": "Оставить заявку"
+  },
+  "header": {
+    "agent": "Авиа-агент",
+    "agency": "Тревел Агентство",
+    "airline": "Авиакомпания",
+    "phone": "+77027023010",
+    "lang": "Язык"
+  },
+  "quote": {
+    "agent": {
+      "title": "Получай награды от партнерских брендов",
+      "subtitle": ""
+    },
+    "agency": {
+      "title": "Выведи партнерство с поставщиками на новый уровень",
+      "subtitle": "Увеличь продуктивность, мотивируя билетных агентов"
+    },
+    "airline": {
+      "title": "Сделай авиа-агентов расширенной командой продаж",
+      "subtitle": "Построй бренд-стратегию с клиентом в центре внимания"
+    }
+  },
+  "loyalty": {
+    "commonTitle": "Одна платформа лояльности",
+    "agent": [
+      {
+        "title": "25",
+        "subtitle": "Авиакомпаний"
+      },
+      {
+        "title": "",
+        "subtitle": "Все ваши бонусы — в одном месте"
+      },
+      {
+        "title": "100",
+        "subtitle": "Гостиничных брендов"
+      }
+    ],
+    "agency": [
+      {
+        "title": "25",
+        "subtitle": "Авиакомпаний"
+      },
+      {
+        "title": "",
+        "subtitle": "Все ваши бонусы — в одном месте"
+      },
+      {
+        "title": "100",
+        "subtitle": "Гостиничных брендов"
+      }
+    ],
+    "airline": {
+      "block1": {
+        "title": "15",
+        "subtitle": "Рынков"
+      },
+      "block2": {
+        "title": "1",
+        "subtitle": "единое решение для управления B2B-партнёрами, пассажирами, продажами, маркетингом и экопроектами"
+      },
+      "block3": {
+        "subtitle": "1 000 турагентств\n10 000 авиа-агентов\n150 корпоративных клиентов",
+        "travelAgencies": "турагентств",
+        "travelAgents": "авиа-агентов",
+        "corporateClients": "корпоративных клиентов"
+      },
+      "block4": {
+        "title": "150 000",
+        "subtitle": "пассажиров"
+      }
+    }
+  },
+  "footer": {
+    "agency": "Для Тревел Агентств",
+    "getDemo": "Демо-доступ",
+    "agent": "Для авиа-агентов",
+    "help": "Помощь",
+    "airline": "Для авиакомпаний",
+    "phoneLabel": "Телефон",
+    "emailLabel": "e-mail"
+  },
+  "profile": {
+    "department": "Департамент",
+    "structure": "Структура",
+    "branches": "Филиалы",
+    "branch": "Филиал",
+    "branchType": "Вид Филиала",
+    "phoneLabel": "Телефон",
+    "extensionPhone": "Телефон (доп.)",
+    "jobTitle": "Должность",
+    "positions": "Должности",
+    "roles": "Должности",
+    "users": "Сотрудники",
+    "branchTypes": "Типы филиалов",
+    "user": "Пользователь",
+    "company": "Компания",
+    "organization": "Организация",
+    "edit": "Редактировать",
+    "legalNameLabel": "Юр. наименование:",
+    "loadingRequests": "Загрузка запросов…",
+    "requestNumber": "Заявка #",
+    "status": "Статус:",
+    "comment": "Комментарий:",
+    "created": "Создано:",
+    "cancel": "Отменить",
+    "newRequest": "Новый запрос",
+    "notJoinedYet": "Вы ещё не присоединены к агентству. Отправьте запрос на присоединение.",
+    "sendRequestToAgency": "Отправить запрос в агентство",
+    "userProfile": "Профиль Администратора",
+    "companyProfile": "Профиль Компании",
+    "addresses": "Адреса",
+    "legalAddress": "Юридический Адрес",
+    "headquartersAddress": "Головной офис",
+    "mailingAddress": "Почтовый адрес",
+    "countryOfIncorporation": "Страна",
+    "firstAddressLine": "Адресная строка 1",
+    "secondAddressLine": "Адресная строка 2",
+    "postIndex": "Почтовый индекс",
+    "city": "Город",
+    "sameAsRegistered": "тот же, что и юридийческий адрес",
+    "corporateEmail": "Корпоративный e-mail",
+    "ain": "AIN",
+    "legalName": "Юридическое название",
+    "airlineCodes": "Коды авиакомпании",
+    "companyCodes": "Коды компании",
+    "agencyInfo": "Информация агентства",
+    "agentInfo": "Информация агента",
+    "businessType": "Тип бизнеса",
+    "iataDesignator": "IATA код (2 буквы)",
+    "iataNumericCode": "IATA код (3 цифры)",
+    "iataValidator": "IATA Валидатор",
+    "iataValidatorTooltip": "Только для IATA Travel Agencies",
+    "iataOfficeIds": "IATA Office ID's",
+    "officeIds": "Office ID's",
+    "officeIdsTooltip": "Для суб-агентств",
+    "icaoCode": "ICAO код",
+    "pseudoCityCode": "Pseudo City Code",
+    "pseudoCityCodeTooltip": "Только PCC головного офиса",
+    "repeat": "Повторить",
+    "error": "Ошибка",
+    "changePassword": "Сменить пароль",
+    "emailLabel": "e-mail"
+  },
+  "common": {
+    "add": "Добавить",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "confirm": "Подтвердить",
+    "confirm_title": "Подтверждение",
+    "saving": "Сохранение...",
+    "actions": "Действия",
+    "end_of_list": "Вы достигли конца",
+    "selectBranch": "Выберите филиал",
+    "selectRole": "Выберите должность",
+    "selectDepartment": "Выберите отдел",
+    "loadFail": "Не удалось загрузить данные",
+    "loading": "Загрузка...",
+    "selectAgency": "Выберите агентство",
+    "selectCityOptional": "Город (необязательно)",
+    "selectCountry": "Выберите страну",
+    "selectCity": "Выберите город",
+    "all": "Все",
+    "messageForAgency": "Сообщение для агентства",
+    "sendRequestToAgency": "Отправить запрос в агентство",
+    "sending": "Отправка...",
+    "send": "Отправить",
+    "requestSent": "Заявка отправлена",
+    "failedToSendRequest": "Не удалось отправить заявку",
+    "selectAgencyFirst": "Выберите агентство",
+    "failedToLoadCountries": "Не удалось загрузить страны",
+    "failedToLoadBusinessData": "Не удалось загрузить данные бизнеса",
+    "failedToLoad": "Не удалось загрузить",
+    "businessNotFound": "Бизнес не найден",
+    "notSpecified": "Не указано",
+    "required": "Обязательное поле",
+    "selectBank": "Выберите банк",
+    "selectBranchOptional": "Филиал (необязательно)",
+    "selectRoleOptional": "Должность (необязательно)",
+    "selectStructureOptional": "Структура (необязательно)"
+  }
+,
+  "structures": {
+    "title": "Структура компании",
+    "empty": "Пусто. Нажмите «Добавить».",
+    "col": {
+      "name": "Отдел",
+      "type": "Тип",
+      "parent": "Департамент",
+      "department": "Департамент",
+      "team": "Отдел",
+      "actions": "Действия"
+    },
+    "delete": {
+      "title": "Удаление подразделения",
+      "text": "Удалить «{{name}}»? Действие необратимо.",
+      "textShort": "Удалить элемент? Действие необратимо."
+    },
+    "error": {
+      "loadBusiness": "Не удалось получить компанию",
+      "loadList": "Не удалось загрузить список"
+    },
+    "modal": {
+      "addTitle": "Добавить подразделение",
+      "editTitle": "Редактировать подразделение",
+      "fillRequired": "Заполните название и тип.",
+      "saveError": "Ошибка сохранения"
+    },
+    "fields": {
+      "name": "Отдел",
+      "type": "Тип",
+      "parent": "Департамент",
+      "namePlaceholder": "Например: Маркетинг",
+      "selectName": "Выберите название"
+    },
+    "parent": {
+      "none": "— Нет (корневой уровень)"
+    },
+    "types": {
+      "loading": "Загрузка типов…",
+      "error": "Не удалось загрузить типы",
+      "department": "Департамент",
+      "team": "Отдел"
+    },
+    "directories": {
+      "loading": "Загрузка справочников…",
+      "error": "Не удалось загрузить справочники"
+    }
+  },
+  "roles": {
+    "title": "Должности",
+    "empty": "Пусто. Нажмите «Добавить».",
+    "col": {
+      "code": "Код",
+      "name": "Наименование",
+      "permissionsCount": "Кол-во прав",
+      "actions": "Действия"
+    },
+    "delete": {
+      "title": "Удаление должности",
+      "text": "Удалить «{{name}}»? Действие необратимо.",
+      "textShort": "Удалить элемент? Действие необратимо."
+    },
+    "error": {
+      "loadBusiness": "Не удалось получить компанию",
+      "loadList": "Не удалось загрузить список",
+      "loadItem": "Не удалось загрузить должность"
+    },
+    "modal": {
+      "addTitle": "Добавить должность",
+      "editTitle": "Редактировать должность",
+      "fillRequired": "Заполните наименование.",
+      "saveError": "Ошибка сохранения"
+    },
+    "fields": {
+      "code": "Код",
+      "name": "Наименование",
+      "permissions": "Права",
+      "selectName": "Выберите наименование"
+    },
+    "searchPlaceholder": "Поиск по коду/ID…",
+    "selectVisible": "Выбрать видимые",
+    "clearAll": "Очистить",
+    "nothingFound": "Ничего не найдено",
+    "selectedCount": "Выбрано: {{count}}"
+  },
+  "positions": {
+    "loading": "Загрузка позиций…",
+    "error": "Не удалось загрузить позиции"
+  },
+  "users": {
+    "title": "Сотрудники",
+    "empty": "Пусто. Нажмите «Добавить».",
+    "col": {
+      "firstName": "Имя",
+      "lastName": "Фамилия",
+      "email": "e-mail",
+      "role": "Должность",
+      "structure": "Департамент",
+      "department": "Департамент",
+      "team": "Отдел",
+      "branch": "Филиал",
+      "phone": "Телефон",
+      "extensionPhone": "Внутренний номер",
+      "actions": "Действия"
+    },
+    "none": "— Нет",
+    "delete": {
+      "title": "Удаление пользователя",
+      "text": "Удалить «{{first}} {{last}}»?",
+      "textShort": "Удалить элемент?"
+    },
+    "error": {
+      "loadBusiness": "Не удалось получить компанию",
+      "loadData": "Не удалось загрузить данные"
+    },
+    "modal": {
+      "addTitle": "Добавить пользователя",
+      "editTitle": "Редактировать пользователя",
+      "fillRequired": "Заполните имя, фамилию и e-mail.",
+              "noRoles": "У бизнеса нет доступных должностей.",
+        "selectValidRole": "Выберите корректную должность.",
+      "selectBranch": "Выберите филиал",
+      "passwordRequired": "Укажите пароль для нового пользователя.",
+      "saveError": "Ошибка сохранения"
+    },
+    "fields": {
+      "firstName": "Имя",
+      "lastName": "Фамилия",
+      "email": "e-mail",
+      "ain": "AIN",
+      "role": "Должность",
+      "department": "Департамент",
+      "team": "Отдел",
+      "structure": "Структура",
+      "branch": "Филиал",
+      "phone": "Телефон",
+      "extensionPhone": "Внутренний номер",
+      "resetPassword": "Сбросить пароль"
+    }
+  },
+  "branchTypes": {
+    "title": "Типы филиалов",
+    "col": {
+      "name": "Название"
+    },
+    "empty": "Пусто. Нажмите «Добавить».",
+    "delete": {
+      "title": "Удаление типа филиала",
+      "text": "Удалить «{{name}}»? Действие необратимо.",
+      "textShort": "Удалить элемент?"
+    },
+    "error": {
+      "loadBusiness": "Не удалось получить компанию",
+      "loadList": "Не удалось загрузить список"
+    },
+    "modal": {
+      "addTitle": "Добавить тип филиала",
+      "editTitle": "Редактировать тип филиала",
+      "nameRequired": "Укажите название типа филиала.",
+      "saveError": "Ошибка сохранения"
+    },
+    "fields": {
+      "name": "Название",
+      "namePh": "Например: Представительство"
+    }
+  },
+  "branches": {
+    "title": "Филиалы",
+    "col": {
+      "name": "Название",
+      "type": "Тип",
+      "country": "Страна",
+      "city": "Город",
+      "location": "Адрес"
+    },
+    "empty": "Пусто. Нажмите «Добавить».",
+    "delete": {
+      "title": "Удаление филиала",
+      "text": "Удалить «{{name}}»? Действие необратимо.",
+      "textShort": "Удалить элемент?"
+    },
+    "error": {
+      "loadBusiness": "Не удалось получить компанию",
+      "loadList": "Не удалось загрузить список"
+    },
+    "citiesLoading": "Загрузка городов…",
+    "modal": {
+      "addTitle": "Добавить филиал",
+      "editTitle": "Редактировать филиал",
+      "fillAll": "Заполните все поля.",
+      "saveError": "Ошибка сохранения",
+      "locationRequired": "Заполните адрес"
+    },
+    "fields": {
+      "name": "Название",
+      "namePh": "Например: Алматинский офис",
+      "type": "Тип филиала",
+      "country": "Страна",
+      "city": "Город",
+      "pseudoCityCode": "PCC",
+      "pseudoCityCodeHint": "Каждый код — с новой строки",
+      "location": "Адрес",
+      "locationPh": "Улица, здание, офис…",
+      "locationTooltip": "Как Вы обычно называете офис, пример \"на Абая\"",
+      "title": "Наименование",
+      "officeNickname": "Псевдоним офиса"
+    }
+  },
+  "business": {
+    "modal": {
+      "title": "Редактировать Профиль Компании",
+      "fillNames": "Заполните торговое и юридическое название.",
+      "badEmail": "Введите корректный корпоративный e-mail.",
+      "saveError": "Не удалось сохранить",
+      "latinInfo": "Вся информация должна быть заполнена латинскими буквами"
+    },
+    "fields": {
+      "tradingName": "Торговое Название",
+      "legalName": "Юридическое Название",
+      "legalAddress": "Юридический Адрес",
+      "hqAddress": "Адрес Головного Офиса",
+      "mailingAddress": "Почтовый адрес",
+      "countryOfIncorporation": "Страна",
+      "firstAddressLine": "Адресная строка 1",
+      "secondAddressLine": "Адресная строка 2",
+      "postIndex": "Почтовый Индекс",
+      "city": "Город",
+      "sameAsRegistered": "Тот же, что и юридический адрес",
+      "sameAsRegisteredAddress": "Тот же, что и юридический адрес",
+      "corporateEmail": "Корпоративный e-mail",
+      "iata": "IATA (2-буквенный код)",
+      "icao": "ICAO",
+      "pcc": "Pseudo City Code",
+      "iataNumeric": "IATA numeric (3-значный код)",
+      "ain": "AIN",
+      "pseudoCityCode": "Pseudo City Code",
+      "pseudoCityCodePh": "ABC1\nXYZ2",
+      "pseudoCityCodeHint": "Каждый код — с новой строки",
+      "pseudoCityCodeTooltip": "Только PCC головного офиса",
+      "iataValidator": "IATA Валидатор",
+      "iataValidatorPh": "Validator1\nValidator2",
+      "iataValidatorHint": "Каждый валидатор — с новой строки",
+      "iataValidatorTooltip": "Только для IATA Travel Agencies",
+      "officeIds": "Office ID's",
+      "officeIdsPh": "Office1\nOffice2",
+      "officeIdsHint": "Каждый ID — с новой строки",
+      "officeIdsTooltip": "Для суб-агентств",
+      "registeredAddress": "Юридический адрес",
+      "headOfficeAddress": "Адрес головного офиса"
+    },
+    "logo": {
+      "label": "Логотип",
+      "placeholder": "…или вставьте URL логотипа",
+      "clear": "Очистить",
+      "uploading": "Загрузка логотипа…",
+      "tooltip": "Загрузите квадратное изображение для логотипа"
+    },
+    "validation": {
+      "latinOnly": "Только латинские буквы разрешены",
+      "latinAndNumbers": "Только латинские буквы и цифры разрешены",
+      "address": "Только латинские буквы, цифры и пробелы разрешены",
+      "companyName": "Только латинские буквы, цифры и пробелы разрешены"
+    }
+  },
+  "permissions": {
+    "business": { "read": "Профиль компании — Просмотр",     "write": "Профиль компании — Cоздавать и редактировать" },
+    "branch":   { "read": "Филиалы — Просмотр",     "write": "Филиалы — Cоздавать и редактировать" },
+    "promo":    { "read": "Промо — Просмотр",       "write": "Промо — Cоздавать и редактировать"   },
+    "permission": { "read": "Права — Просмотр",     "write": "Права — Cоздавать и редактировать"   },
+    "role":     { "read": "Должности — Просмотр",        "write": "Должности — Cоздавать и редактировать"    },
+    "user":     { "read": "Сотрудники — Просмотр","write": "Сотрудники — Cоздавать и редактировать" },
+    "location": { "read": "Локации — Просмотр",     "write": "Локации — Cоздавать и редактировать" },
+    "membership": { "read": "Заявки в агентство — Просмотр", "write": "Заявки в агентство — Cоздавать и редактировать" },
+    "imsfee": { "read": "Сборы IMS — Просмотр", "write": "Сборы IMS — Cоздавать и редактировать" },
+    "subscriptions": { "read": "Подписки — Просмотр", "write": "Подписки — Cоздавать и редактировать" },
+    "document": { "read": "Документы — Просмотр", "write": "Документы — Cоздавать и редактировать" },
+    "requisites": { "read": "Реквизиты — Просмотр", "write": "Реквизиты — Cоздавать и редактировать" }
+  },
+  "membership": {
+    "title": "Заявки в агентство",
+    "total": "Всего: {{total}}",
+    "loading": "Загрузка...",
+    "empty": "Пока нет заявок",
+    "col": {
+      "created": "Создана",
+      "status": "Статус",
+      "branch": "Филиал",
+      "actions": "Действия",
+      "comment": "Комментарий",
+      "applicant": "Заявитель",
+      "email": "e-mail"
+    },
+    "status": {
+      "Pending": "В ожидании",
+      "Approved": "Одобрена",
+      "Rejected": "Отклонена" },
+    "approve": "Одобрить",
+    "reject": "Отклонить",
+    "prev": "Назад",
+    "next": "Вперёд",
+    "approveTitle": "Одобрить заявку",
+    "rejectTitle": "Отклонить заявку",
+    "approved": "Заявка одобрена",
+    "rejected": "Заявка отклонена",
+    "actionFail": "Не удалось обработать заявку",
+    "reasonPlaceholder": "Причина (необязательно)"
+  },
+    "stats": {
+    "loading": "Загрузка статистики...",
+    "total": "Всего",
+    "unconfirmed": "Неподтверждено",
+    "confirmed": "Подтверждено",
+    "pending": "В ожидании",
+    "paid": "Начислено",
+    "total_sub": "начислено за всё время",
+    "unconfirmed_sub": "сегменты без перелёта",
+    "confirmed_sub": "сегменты с перелётом",
+    "pending_sub": "ожидается от авиакомпании",
+    "paid_sub": "начисленные вознаграждения"
+  },
+  "requisites": {
+    "title": "Реквизиты",
+    "description": "Здесь будут отображаться реквизиты",
+    "createTitle": "Создать реквизиты",
+    "editTitle": "Редактировать реквизиты",
+    "fields": {
+      "legalEntity": "Юридическое лицо",
+      "bin": "БИН",
+      "legalName": "Зарегистрированное название",
+      "legalAddress": "Зарегистрированный адрес",
+      "legalNamePlaceholder": "Введите зарегистрированное название",
+      "legalAddressPlaceholder": "Введите зарегистрированный адрес",
+      "bank": "Банк",
+      "bik": "БИК",
+      "accountNumber": "Номер счета/ИИК"
+    },
+    "agency": {
+      "description": "Здесь будут отображаться реквизиты агентства"
+    },
+    "agent": {
+      "description": "Здесь будут отображаться реквизиты агента"
+    },
+    "empty": "Реквизиты не найдены",
+    "emptyDescription": "Создайте реквизиты для вашего бизнеса",
+    "addNew": "Добавить реквизиты",
+    "requisiteNumber": "Реквизиты",
+    "deleteTitle": "Удалить реквизиты",
+    "deleteText": "Вы уверены, что хотите удалить эти реквизиты? Это действие нельзя отменить."
+  },
+  "enums": {
+    "bookingClass": {
+      "1": "Бизнес",
+      "2": "Эконом",
+      "3": "Первый"
+    },
+    "rewardTriggerType": {
+      "1": "Класс бронирования",
+      "2": "Семейство тарифов",
+      "3": "Дополнительные услуги"
+    },
+    "tripStatus": {
+      "1": "Открыт",
+      "2": "Использован",
+      "3": "Возврат"
+    }
+  },
+    "subscription": {
+        "title": "Подписки",
+        "plans": {
+            "title": "Доступные модули",
+            "subscribe": "Подписаться",
+            "subscribing": "Подписка...",
+            "subscribed": "Активная подписка",
+            "expired": "Истекла",
+            "unsubscribe": "Отписаться",
+            "unsubscribing": "Отписка...",
+            "baseFee": "Базовая плата",
+            "variableRate": "Переменная ставка",
+            "startDate": "Начало",
+            "endDate": "Окончание",
+            "noPlans": "Нет доступных планов"
+        },
+        "subscriptions": {
+            "title": "Мои подписки",
+            "plan": "План",
+            "baseFee": "Базовая плата",
+            "startDate": "Дата начала",
+            "endDate": "Дата окончания",
+            "status": "Статус",
+            "actions": "Действия",
+            "active": "Активна",
+            "inactive": "Неактивна",
+            "expired": "Истекла",
+            "noSubscriptions": "Нет активных подписок",
+            "noAction": "Нет действий"
+        },
+        "unsubscribe": {
+            "title": "Подтверждение отписки",
+            "message": "Вы уверены, что хотите отписаться от этого плана? Это действие нельзя отменить."
+        }
+    },
+    "passenger": {
+        "nav": {
+            "home": "Главная",
+            "wallet": "Кошелек",
+            "trips": "Поездки",
+            "account": "Мой аккаунт",
+            "more": "Еще"
+        },
+        "home": {
+            "loading": "Загрузка...",
+            "noStories": "Нет доступных stories",
+            "myAccount": "Мой аккаунт",
+            "bookATrip": "Забронировать поездку",
+            "categoryDescription": "Это категория {{name}}. Здесь вы можете найти все доступные предложения и партнеров в этой категории.",
+            "partnerDescription": "Это партнер {{name}}. Узнайте больше о наших специальных предложениях и акциях.",
+            "categories": {
+                "airline": "Авиакомпании",
+                "hotel": "Отели",
+                "gym": "Спортзалы",
+                "bank": "Банки",
+                "restaurant": "Рестораны",
+                "coffee": "Кофейни"
+            },
+            "readMore": "Подробнее"
+        },
+        "account": {
+            "title": "Мой аккаунт",
+            "accountDetails": "Детали аккаунта",
+            "recentTransactions": "Последние транзакции",
+            "imsSavvyMember": "Участник IMS Savvy",
+            "totalMiles": "Всего миль",
+            "totalMilesTooltip": "Общее количество миль, доступных для использования в данный момент",
+            "pending": "В ожидании",
+            "pendingTooltip": "Общее количество миль, ожидаемых от партнеров",
+            "lastThreeMonthsTooltip": "Статусы, достигнутые отдельно каждый месяц за последние 3 месяца",
+            "statusBenefitsNote": "Для использования преимуществ статуса необходимо достичь как минимум того же статуса за последние 3 месяца",
+            "loyaltyRewards": "Программа лояльности",
+            "completeTicketTransactions": "Быстро завершайте транзакции с билетами, сканируя вашу цифровую карту.",
+            "scanQRCode": "Сканировать QR-код",
+            "scanQRCodeInstruction": "Наведите камеру на QR-код",
+            "copyMembershipId": "Копировать ID участника",
+            "loadingTierHistories": "Загрузка истории статусов...",
+            "noTierData": "Нет данных о статусах",
+            "noStatus": "Без статуса",
+            "active": "Активна",
+            "subscription": "Подписка",
+            "discount": "скидка",
+            "trips": "Поездки",
+            "or": "ИЛИ",
+            "monthlyActivity": "Месячная активность",
+            "contactInformation": "Контактная информация",
+            "email": "Email",
+            "phone": "Телефон",
+            "loadingTransactions": "Загрузка транзакций...",
+            "noTransactions": "Нет транзакций",
+            "copyToClipboard": "Копировать в буфер обмена",
+            "copied": "Скопировано",
+            "loading": "Загрузка...",
+            "membership": "Участник",
+            "progressThisMonth": "Прогресс за {{month}}",
+            "achieveNextStatus": "Достигните следующего статуса, выполнив определенное количество:",
+            "transactionTypes": {
+                "topup": "Пополнение",
+                "transfer": "Перевод",
+                "spent": "Платеж"
+            },
+            "transactionStatuses": {
+                "pending": "В ожидании",
+                "paid": "Оплачено",
+                "cancelled": "Отменено"
+            }
+        },
+        "more": {
+            "title": "Еще",
+            "subtitle": "Дополнительные функции",
+            "profile": "Профиль",
+            "settings": "Настройки",
+            "help": "Помощь",
+            "language": "Язык",
+            "userAgreement": "Пользовательское соглашение",
+            "chat": "Чат",
+            "logout": "Выйти",
+            "loadingAgreements": "Загрузка соглашений...",
+            "noAgreements": "Соглашения недоступны",
+            "agreementTitle": "Пользовательское соглашение",
+            "version": "Версия",
+            "updatedAt": "Обновлено"
+        },
+        "profile": {
+            "title": "Профиль",
+            "subtitle": "Информация о вашем аккаунте",
+            "personalInformation": "Личная информация",
+            "fullName": "Полное имя",
+            "email": "Email",
+            "phone": "Телефон",
+            "country": "Страна",
+            "imsNumber": "IMS номер",
+            "extensionPhoneNumber": "Дополнительный номер телефона",
+            "ain": "AIN",
+            "userId": "ID пользователя",
+            "failedToLoad": "Не удалось загрузить информацию о профиле",
+            "userNotFound": "Пользователь не найден",
+            "goBack": "Назад"
+        },
+        "wallet": {
+            "title": "Кошелек",
+            "subtitle": "Управление балансом и платежами",
+            "balance": "Баланс",
+            "transactionHistory": "История транзакций",
+            "noTransactions": "Пока нет транзакций",
+            "transfer": "Перевести",
+            "transferMiles": "Перевод миль",
+            "wishlist": "Список желаний",
+            "noWishlistItems": "Пока нет элементов в списке желаний",
+            "progress": "Прогресс",
+            "from": "Откуда",
+            "to": "Куда",
+            "selectSource": "Выберите источник",
+            "selectDestination": "Выберите назначение",
+            "amount": "Сумма",
+            "enterAmount": "Введите сумму",
+            "name": "Название",
+            "selectName": "Выберите название",
+            "nameOptions": {
+                "dreamHoliday": "Поездка мечты",
+                "familyVacation": "Семейный отпуск",
+                "friendsTrip": "Поездка с друзьями",
+                "weekendEscape": "Выходные на природе",
+                "chooseYourOwn": "Выберите свое"
+            },
+            "typeIn": "Введите",
+            "typeNumber": "Введите число",
+            "max15Letters": "максимум 15 букв",
+            "destination": "Направление",
+            "countryOrCity": "Страна или город",
+            "targetTrip": "Целевая поездка",
+            "setMilesAmountRequired": "установить требуемое количество миль для этой поездки",
+            "setRules": "Установить правила",
+            "percentOfTransactions": "% всех транзакций, которые переводятся в этот суб-кошелек",
+            "selectRule": "Выберите правило",
+            "percentOfEachTransaction": "% каждой транзакции",
+            "create": "Создать",
+            "target": "Цель",
+            "complete": "завершено",
+            "rulesSet": "Правила установлены",
+            "ffCard": "FF карта",
+            "member": "Участник",
+            "allTimeMiles": "Всего миль",
+            "allTimeMilesTooltip": "Общее количество миль, накопленных за весь период участия в программе",
+            "availableToRedeem": "Доступно для обмена",
+            "pending": "В ожидании",
+            "pendingTooltip": "Общее количество миль, ожидаемых от партнеров",
+            "accounts": "Счета",
+            "history": "История",
+            "loading": "Загрузка...",
+            "transferError": "Не удалось перевести мили",
+            "transferring": "Перевод...",
+            "noRulesSet": "Правила не установлены",
+            "deleteError": "Не удалось удалить список желаний",
+            "transferBeforeDelete": "Перевести средства перед удалением",
+            "transferFundsMessage": "В этом списке желаний {{amount}} миль. Куда вы хотите их перевести?",
+            "transferTo": "Перевести в",
+            "confirmDelete": "Подтвердите удаление",
+            "confirmDeleteMessage": "Вы уверены, что хотите удалить этот список желаний? Это действие нельзя отменить.",
+            "cancel": "Отмена",
+            "deleting": "Удаление...",
+            "delete": "Удалить",
+            "createError": "Не удалось создать список желаний",
+            "creating": "Создание...",
+            "country": "Страна",
+            "selectCountry": "Выберите страну",
+            "city": "Город",
+            "optional": "необязательно",
+            "selectCity": "Выберите город",
+            "updateError": "Не удалось обновить список желаний",
+            "editWishlist": "Редактировать список желаний",
+            "saving": "Сохранение...",
+            "save": "Сохранить",
+            "transactionTypes": {
+                "topup": "Пополнение",
+                "transfer": "Перевод",
+                "spent": "Платеж"
+            },
+            "transactionStatuses": {
+                "pending": "В ожидании",
+                "paid": "Оплачено",
+                "cancelled": "Отменено"
+            },
+            "transactionCategories": {
+                "restaurant": "Ресторан",
+                "hotel": "Отель",
+                "airline": "Авиакомпания",
+                "flight": "Рейс",
+                "banking": "Банкинг",
+                "gasStation": "АЗС",
+                "gym": "Спортзал",
+                "coffee": "Кофейня"
+            }
+        },
+        "trips": {
+            "title": "Поездки",
+            "subtitle": "Управление поездками",
+            "myTrips": "Мои поездки",
+            "bookATrip": "Забронировать поездку",
+            "noTripsYet": "Пока нет поездок",
+            "tripHistoryDescription": "История ваших поездок появится здесь",
+            "upcoming": "Предстоящие",
+            "completed": "Завершено",
+            "flights": "Рейсы",
+            "hotels": "Отели",
+            "services": "Услуги",
+            "from": "ОТКУДА",
+            "to": "КУДА",
+            "departureDate": "ДАТА ОТПРАВЛЕНИЯ",
+            "returnDate": "ДАТА ВОЗВРАТА",
+            "checkIn": "ЗАЕЗД",
+            "checkOut": "ВЫЕЗД",
+            "date": "ДАТА",
+            "endDate": "ДАТА ОКОНЧАНИЯ",
+            "select": "Выбрать",
+            "done": "Готово",
+            "inProgress": "Страница в разработке",
+            "inProgressDescription": "Эта страница находится в процессе разработки. Скоро здесь появится функционал бронирования поездок.",
+            "oneWay": "В ОДНУ СТОРОНУ",
+            "roundTrip": "ТУДА И ОБРАТНО",
+            "bookAFlight": "ЗАБРОНИРОВАТЬ РЕЙС",
+            "cancel": "Отмена"
+        }
+    },
+    "landing": {
+        "header": {
+            "signIn": "Войти",
+            "menu": {
+                "collectMiles": "Накопить мили",
+                "spendMiles": "Потратить мили",
+                "membership": "Членство"
+            }
+        },
+        "hero": {
+            "title": "Ваш отдых —\n за счёт наших партнёров"
+        },
+        "collectMiles": {
+            "title": "накопить мили",
+            "subtitle": "Ваша повседневная жизнь превращается\n в следующий отпуск.",
+            "description": "Каждый раз, когда вы бронируете перелёт, останавливаетесь в отеле, ужинаете с семьёй или друзьями — и даже когда берёте кофе навынос — вы получаете мили от наших партнёров.",
+            "activities": {
+                "banking": "Банкинг",
+                "bankingDesc": "Ежемесячные платежи по карте",
+                "gasStation": "АЗС",
+                "gasStationDesc": "Заправка бака",
+                "restaurant": "Ресторан",
+                "restaurantDinner": "Ужин с семьей",
+                "restaurantLunch": "Обед с партнером",
+                "flight": "Рейс",
+                "flightDesc": "Деловая поездка",
+                "gym": "Спортзал",
+                "gymDesc": "Ежемесячная плата",
+                "hotel": "Отель",
+                "hotelDesc": "Деловая поездка",
+                "coffee": "Кофейня",
+                "coffeeDesc": "С друзьями",
+                "miles": "миль"
+            },
+            "unifiedMiles": {
+                "title": "Unified Miles",
+                "paragraph1": "IMS Miles - это унифицированные мили, что означает, что каждый раз, когда вы совершаете полет, останавливаетесь в отеле, покупаете круассан или платите кредитной картой, вы получаете те же IMS Miles от всех наших партнеров.",
+                "paragraph2Intro": "Больше не нужно регистрироваться:",
+                "paragraph2Item1": "•10 различных программ лояльности авиакомпаний",
+                "paragraph2Item2": "•20 различных программ лояльности отелей",
+                "paragraph2Item3": "•30 различных программ лояльности ресторанов и кофеен",
+                "paragraph2End": "Все ваши награды теперь унифицированы и в одном месте. Отслеживайте всю свою активность и мили, собранные из разных мест, в одном окне.",
+                "paragraph3": "Более того, IMS Miles никогда не истекают и не имеют ограничений, что дает гибкость и контроль над вашими наградами. Благодаря широкому кругу партнеров экосистемы, вы можете собирать мили в своей повседневной деятельности в своей стране или за границей, во время деловой поездки."
+            },
+            "wishlist": {
+                "title": "Список желаний",
+                "airlines": "Авиакомпании",
+                "description": "Начните свой список желаний и настройте отдельные поездки. Система подключит суб-кошельки, чтобы вы могли собирать мили отдельно для каждой поездки.",
+                "ideas": "Некоторые идеи!",
+                "weekendEscape": {
+                    "title": "Выходные на природе",
+                    "description": "Короткая поездка в ближайшее место назначения, чтобы расслабиться на выходных в одном из ближайших мегаполисов, или в тишине горного шале, или покататься на лыжах пару дней, или уединиться в тишине пляжного домика.",
+                    "note": "Для этого достаточно короткого перелета и одной ночи (сб-вс), чтобы сбежать, следовательно, можно достичь цели с наименьшим количеством миль."
+                },
+                "familyHoliday": {
+                    "title": "Семейный отпуск",
+                    "description": "Отправьте свою семью в ежегодный отпуск и создайте незабываемые воспоминания. Все оплачено милями, начисленными нашими партнерами. Разве это не звучит как идеальный отпуск?"
+                },
+                "buddiesTrip": {
+                    "title": "Поездка с друзьями",
+                    "description": "Планировали совместную поездку с друзьями или лучшими друзьями, одноклассниками или братьями и сестрами, но не могли организовать ее годами? Теперь каждый человек в группе может установить личную цель для выбранного общего направления и начать собирать мили. Когда все достигнут своих целей, вы наконец готовы взлететь!!!"
+                },
+                "dreamDestination": {
+                    "title": "Мечта о поездке",
+                    "description": "Заманчивые белые песчаные пляжи Мальдив, пентхаус с видом на Центральный парк Нью-Йорка или захватывающие зимние сцены Монблана из элегантного горного шале. Всегда были на первом месте в ваших мыслях? Тем не менее, это продолжает оставаться идеальной мечтой.",
+                    "callToAction": "Выберите сегодня направление для отпуска своей мечты, установите цель и позвольте системе ежедневно пополнять ее. Вы не можете откладывать это вечно."
+                },
+                "allocation": {
+                    "title": "P/S:",
+                    "description": "Выделяйте 10%, 15% или 20% от каждой транзакции, когда вы устанавливаете правило, чтобы ваши суб-кошельки списка желаний пополнялись каждый раз, когда вы получаете мили. Например: если вы установите правило 10%, каждый раз, когда вы получаете 100 миль, 10 миль идут в суб-кошелек списка желаний, а 90 миль пополняют \"Доступно для погашения\" в вашем кошельке."
+                }
+            },
+            "airlines": {
+                "title": "Авиакомпании",
+                "description": "Получайте IMS Miles каждый раз, когда вы летите с нашими партнерами-авиакомпаниями. Путешествуете ли вы по делам или для отдыха, каждый полет приближает вас к следующему пункту назначения.",
+                "benefits": "Все ваши полеты автоматически отслеживаются, и мили зачисляются на ваш унифицированный счет IMS Miles. Не нужно регистрироваться в нескольких программах лояльности авиакомпаний - все в одном месте.",
+                "howItWorks": "Как это работает",
+                "step1": "Забронируйте рейс с любым из наших партнеров-авиакомпаний",
+                "step2": "Ваш рейс автоматически отслеживается в системе",
+                "step3": "Мили зачисляются на ваш унифицированный счет IMS Miles",
+                "step4": "Используйте свои мили для следующей поездки или сохраните их для направления своей мечты"
+            },
+            "hotels": {
+                "title": "Отели",
+                "description": "Каждое пребывание в отеле приносит вам IMS Miles. Будь то деловая поездка или отпуск, ваши расходы на проживание превращаются в награды.",
+                "benefits": "Остановитесь в любом из наших партнерских отелей и автоматически собирайте мили. Не нужно присоединяться к нескольким программам лояльности отелей - все ваши пребывания унифицированы в вашем счете IMS Miles.",
+                "howItWorks": "Как это работает",
+                "step1": "Забронируйте проживание в любом из наших партнерских отелей",
+                "step2": "Заселитесь и наслаждайтесь пребыванием",
+                "step3": "Ваше пребывание автоматически отслеживается и мили зачисляются",
+                "step4": "Используйте накопленные мили для будущих пребываний в отелях или других наград"
+            },
+            "banks": {
+                "title": "Банки",
+                "description": "Превратите свой повседневный банкинг в награды. Каждый раз, когда вы платите кредитной картой наших партнерских банков, вы автоматически получаете IMS Miles.",
+                "benefits": "Ежемесячные платежи по карте, покупки и транзакции - все это способствует увеличению баланса миль. Заставьте свои ежедневные расходы работать на вас и приближать вас к следующему отпуску.",
+                "howItWorks": "Как это работает",
+                "step1": "Используйте кредитную карту партнерского банка для повседневных покупок",
+                "step2": "Каждая транзакция автоматически приносит вам IMS Miles",
+                "step3": "Отслеживайте свои ежемесячные платежи по карте и накопленные мили в одном месте",
+                "step4": "Используйте свои мили для рейсов, отелей или других туристических наград"
+            },
+            "restaurants": {
+                "title": "Рестораны",
+                "description": "Наслаждайтесь вкусными блюдами и одновременно зарабатывайте IMS Miles. Каждый ужин с семьей, деловой обед с партнерами или празднование особого случая в наших партнерских ресторанах приносит вам награды.",
+                "benefits": "Не нужно присоединяться к отдельным программам лояльности ресторанов. Все ваши впечатления от ужина унифицированы в вашем счете IMS Miles, делая каждый прием пищи шагом ближе к следующему отпуску.",
+                "howItWorks": "Как это работает",
+                "step1": "Поужинайте в любом из наших партнерских ресторанов",
+                "step2": "Предъявите официанту ваш номер IMS или QR-код из вашего аккаунта",
+                "step3": "Мили автоматически зачисляются на ваш счет",
+                "step4": "Используйте свои мили для рейсов, отелей или большего количества впечатлений от ужина"
+            },
+            "coffeeShops": {
+                "title": "Кофейни",
+                "description": "Ваш ежедневный ритуал кофе теперь может подпитывать ваш следующий отпуск. Каждая чашка кофе, круассан или закуска, купленная в наших партнерских кофейнях, приносит вам IMS Miles.",
+                "benefits": "Возьмите утренний кофе с друзьями, насладитесь кофе на вынос или расслабьтесь с выпечкой - все это, собирая мили, которые приближают вас к направлению вашей мечты.",
+                "howItWorks": "Как это работает",
+                "step1": "Посетите любую из наших партнерских кофеен",
+                "step2": "Предъявите официанту ваш номер IMS или QR-код из вашего аккаунта",
+                "step3": "Ваша активность автоматически приносит IMS Miles",
+                "step4": "Наблюдайте, как ваши мили накапливаются с каждым визитом"
+            },
+            "gyms": {
+                "title": "Спортзалы",
+                "description": "Оставайтесь в форме и одновременно зарабатывайте мили. Ваши ежемесячные членские взносы в спортзал и фитнес-активности в наших партнерских спортзалах автоматически приносят вам IMS Miles.",
+                "benefits": "Инвестиции в ваше здоровье теперь вознаграждают вас возможностями для путешествий. Каждая тренировка и платеж за членство приближают вас к следующему приключению.",
+                "howItWorks": "Как это работает",
+                "step1": "Присоединитесь или посетите любой из наших партнерских спортзалов",
+                "step2": "Оплатите ежемесячный членский взнос",
+                "step3": "Оставайтесь активными и зарабатывайте мили с каждым платежом",
+                "step4": "Используйте свои фитнес-мили для следующего туристического приключения"
+            },
+            "gasStations": {
+                "title": "АЗС",
+                "description": "Каждый раз, когда вы заправляете бак на наших партнерских АЗС, вы также пополняете свой счет миль. Превратите свои обычные остановки для заправки в туристические награды.",
+                "benefits": "Независимо от того, едете ли вы на работу, в поездку или просто по делам, каждая покупка топлива приносит вам IMS Miles, которые можно использовать для рейсов, отелей и многого другого.",
+                "howItWorks": "Как это работает",
+                "step1": "Заправьте бак на любой из наших партнерских АЗС",
+                "step2": "Оплатите покупку топлива",
+                "step3": "Мили автоматически зачисляются на ваш счет IMS",
+                "step4": "Используйте свои мили для заправки следующего туристического приключения"
+            }
+        },
+        "spendMiles": {
+            "title": "потратить мили",
+            "subtitle": "Выберите своё следующее путешествие",
+            "description": "Используйте накопленные мили для поездки на выходные, семейного отпуска или путешествия мечты, о котором вы давно думали — всё оплачено милями от наших партнёров!",
+            "bookFor": "От",
+            "flights": {
+                "title": "Рейсы",
+                "description": "Используйте накопленные IMS Miles для бронирования рейсов с нашими партнерскими авиакомпаниями. Планируете ли вы поездку на выходные или отпуск мечты, ваши мили могут доставить вас куда угодно.",
+                "howItWorks": "Как это работает",
+                "step1": "Выберите пункт назначения и даты поездки",
+                "step2": "Выберите рейс и оплатите IMS Miles",
+                "step3": "Получите подтверждение бронирования",
+                "step4": "Наслаждайтесь поездкой, полностью оплаченной милями"
+            },
+            "hotels": {
+                "title": "Отели",
+                "description": "Обменивайте свои IMS Miles на проживание в отелях наших партнеров. От роскошных курортов до бутик-отелей, ваши мили открывают удивительные варианты размещения по всему миру.",
+                "howItWorks": "Как это работает",
+                "step1": "Просмотрите партнерские отели и выберите пункт назначения",
+                "step2": "Выберите даты заезда и выезда",
+                "step3": "Оплатите проживание с помощью IMS Miles",
+                "step4": "Наслаждайтесь проживанием в отеле, оплаченным милями"
+            },
+            "options": {
+                "weekendEscape": {
+                    "destination": "Запланируйте",
+                    "subtitle": "Побег на выходные",
+                    "type": "Выходной отдых"
+                },
+                "teamUp": {
+                    "destination": "Объединитесь с",
+                    "subtitle": "Путешествие с друзьями",
+                    "type": "Туда и обратно"
+                },
+                "dreamHoliday": {
+                    "destination": "Накопите на",
+                    "subtitle": "Путешествие мечты",
+                    "type": "Пакет отдыха"
+                }
+            }
+        },
+        "statusBenefits": {
+            "title": "привилегии статуса",
+            "subtitle": "Повышайте свой статус. Открывайте больше преимуществ.",
+            "footerText": "С повышением вашего статуса, IMS Savvy берёт на себя большую часть стоимости ваших поездок — из месяца в месяц. Даже если вы летаете нечасто, вы можете повышать и поддерживать свой статус за счёт активности в нашей Партнёрской сети.",
+            "discountLabel": "оплачивает IMS Savvy",
+            "benefits": "Преимущества",
+            "statuses": {
+                "bronze": {
+                    "name": "Бронза",
+                    "description": "Начните свой путь со статуса Бронза. Как участник Бронза, вы начинаете зарабатывать IMS Miles и работать над достижением более высоких уровней статуса с эксклюзивными преимуществами.",
+                    "benefit1": "Начните зарабатывать IMS Miles от всех партнерских активностей",
+                    "benefit2": "Доступ к унифицированной платформе лояльности",
+                    "benefit3": "Отслеживайте свой прогресс к статусу Серебро",
+                    "benefit4": "Даже если вы не совершаете достаточно перелетов для достижения желаемого статуса, вы можете альтернативно достичь ваших ежемесячных целей с помощью нашей Партнерской Сети"
+                },
+                "silver": {
+                    "name": "Серебро",
+                    "description": "15% оплачивает IMS Savvy\nВы оплачиваете только 85% стоимости поездки для бронирования рейса или отеля",
+                    "benefit1": "15% СКИДКА на рейсы и отели",
+                    "benefit2": "Бронируйте всего с 85% стоимости поездки в милях",
+                    "benefit3": "Доступ к эксклюзивным преимуществам участника Серебро",
+                    "benefit4": "Приоритетная поддержка клиентов"
+                },
+                "gold": {
+                    "name": "Золото",
+                    "description": "25% оплачивает IMS Savvy\nВы оплачиваете только 75% стоимости поездки для бронирования рейса или отеля",
+                    "benefit1": "25% СКИДКА на рейсы и отели",
+                    "benefit2": "Бронируйте всего с 75% стоимости поездки в милях",
+                    "benefit3": "Доступ к эксклюзивным преимуществам участника Золото",
+                    "benefit4": "Премиальная поддержка клиентов и приоритетное бронирование"
+                },
+                "platinum": {
+                    "name": "Платина",
+                    "description": "35% оплачивает IMS Savvy\nВы оплачиваете только 65% стоимости поездки для бронирования рейса или отеля",
+                    "benefit1": "35% СКИДКА на рейсы и отели",
+                    "benefit2": "Бронируйте всего с 65% стоимости поездки в милях",
+                    "benefit3": "Доступ к эксклюзивным преимуществам участника Платина",
+                    "benefit4": "VIP поддержка клиентов и бронирование с наивысшим приоритетом"
+                }
+            }
+        },
+        "allExtras": {
+            "title": "дополнения",
+            "subtitle": "Все дополнительные услуги — у вас под рукой",
+            "description": "Используйте мили на дополнительные сервисы во время поездки: повышение класса обслуживания, доступ в бизнес-залы, дополнительный багаж и многое другое.",
+            "benefits": {
+                "freeWifi": "Бесплатный Wi-Fi",
+                "priorityCheckIn": "Приоритетная регистрация",
+                "priorityCheckInDesc": "на стойке бизнес-класса",
+                "loungeAccess": "Доступ в лаунж",
+                "loungeAccessDesc": "в лаунж бизнес-класса",
+                "foodBeverages": "Еда и напитки",
+                "foodBeveragesDesc": "на борту",
+                "additionalLuggage": "Дополнительный багаж",
+                "upgrade": "Апгрейд",
+                "upgradeDesc": "в Премиум эконом или Бизнес класс"
+            }
+        },
+        "partnersBenefits": {
+            "title": "привилегии партнеров",
+            "subtitle": "Эксклюзивные привилегии вашего статуса",
+            "description": "Получайте автоматические преимущества в зависимости от уровня — от приветственных бонусов до приоритетного обслуживания и специальных предложений партнёров.",
+            "benefits": {
+                "welcomeBonus": "Приветственный бонус",
+                "freeMonthlyTreat": "Бесплатное ежемесячное угощение",
+                "priorityCheckIn": "Приоритетная регистрация на стойке бизнес-класса",
+                "advanceSeatBooking": "Предварительное бронирование места",
+                "extendedCheckIn": "Ранний заезд, поздний выезд"
+            }
+        },
+        "footer": {
+            "copyright": "Все права защищены"
+        },
+        "milesAnimation": {
+            "myAccount": "Мой аккаунт",
+            "milesTotal": "Миль, всего",
+            "operations": {
+                "airlineAlmatyAstana": "Авиакомпания Алматы - Астана",
+                "hotel": "Отель",
+                "restaurant": "Ресторан",
+                "airlineAstanaLondon": "Авиакомпания Астана - Лондон",
+                "coffeeShop": "Кофейня",
+                "banking": "Банкинг",
+                "flightAlmatyDubai": "Рейс Алматы - Дубай"
+            }
+        }
+    }
+}

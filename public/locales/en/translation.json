@@ -1,0 +1,1555 @@
+{
+  "nav": {
+    "home": "Home",
+    "profile": "Profile",
+    "analytics": "Analytics",
+    "tutorials": "Video tutorials",
+    "subscription": "Subscription",
+    "documents": "Documents and Invoices",
+    "requisites": "Requisites",
+    "eWallet": "E-wallet",
+    "settings": "Settings",
+    "faq": "FAQ"
+  },
+  "documents": {
+    "title": "Documents",
+    "subtitle": "Airline document management",
+    "loading": "Loading documents...",
+    "no_documents": "No documents found",
+    "name": "Name",
+    "type": "Type",
+    "description": "Description",
+    "actions": "Actions",
+    "download": "Download"
+  },
+  "invoices": {
+    "title": "Invoices",
+    "subtitle": "Invoice and billing management",
+    "loading": "Loading invoices...",
+    "no_invoices": "No invoices found",
+    "name": "Name",
+    "date": "Creation Date",
+    "invoice": "Invoices for Payment",
+    "esf": "E-invoice",
+    "avr": "CCW",
+    "actions": "Actions",
+    "download": "Download",
+    "downloadAll": "Download All",
+    "available": "Available",
+    "notAvailable": "Not Available"
+  },
+  "documentsAndInvoices": {
+    "title": "Documents and Invoices",
+    "subtitle": "Document and invoice management",
+    "selectTab": "Select a section to view content"
+  },
+  "contact": "Contact us",
+  "logout": "Logout",
+  "language": "Language",
+  "promo_view": "Detailed Promo View",
+  "promo": {
+    "search": "Search",
+    "search_tooltip": "Search by: AIN numbers, Travel Agency, IATA Validator, PNR Number, Status",
+    "search_promo_name_tooltip": "Search by promo name",
+    "choose_date": "Choose date",
+    "reset": "Reset",
+    "add_promo": "Add promo",
+    "loading_promos": "Loading promos...",
+    "promo_list": "Promo List",
+    "promo_period": "Promo Period",
+    "booking_period": "Booking Period",
+    "target_countries": "Target Countries",
+    "target_country": "Target Country",
+    "target_audience_country": "Target Audience Country",
+    "total_transactions": "Total Transactions",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "select_countries": "Select Countries",
+    "choose_countries": "Choose Countries",
+    "no_countries_found": "No countries found",
+    "saving": "Saving...",
+    "ain_number": "AIN Number",
+    "name": "Name",
+    "membership_status": "Membership Status",
+    "transaction_rate": "Transaction Rate",
+    "transaction_date": "Transaction Date",
+    "transaction_amount": "Transaction Amount",
+    "reward_amount": "Reward Amount",
+    "miles_amount": "Miles Amount",
+    "status": "Status",
+    "transaction_number": "Transaction Number",
+    "vat_amount": "VAT Amount",
+    "reward": "Reward",
+    "paid": "paid",
+    "accrued": "accrued",
+    "origin_destination": "Origin & Destination",
+    "travel_period": "Travel Period",
+    "target_audience": "Target Audience",
+    "segments": "Routes",
+    "ancillaries": "Ancillaries",
+    "target": "Target",
+    "rewards_total": "Rewards Total",
+    "rewards_paid": "Rewards Accrued",
+    "ims_fees": "IMS Fees",
+    "loading": "Loading...",
+    "travel_agency": "Travel Agency",
+    "travel_agent": "Travel Agent",
+    "booked": "booked",
+    "flown": "flown",
+    "loading_promo": "Loading promo...",
+    "promo_not_found": "Promo not found",
+    "back": "Back",
+    "promo_description": "Promo Description",
+    "read_promo_rules": "Read promo rules",
+    "countries": "Countries",
+    "cities": "Cities",
+    "time_periods": "Time Periods",
+    "booking": "Booking",
+    "travel": "Travel",
+    "download_report": "Download report",
+    "download_limit_tooltip": "Download limit 5000 records",
+    "exporting": "Exporting...",
+    "ain_numbers": "AIN numbers",
+    "travel_agent_name": "Travel Agent Name",
+    "subagent": "Suba-Agency",
+    "iata_validator": "IATA Validator",
+    "iata_pcc": "IATA PCC",
+    "title": "Title",
+    "passenger_name": "Passenger Name",
+    "pnr_number": "PNR Number",
+    "booking_date": "Booking Date",
+    "airline_code": "Airline Code",
+    "flight_number": "Flight number",
+    "travel_date": "Travel Date",
+    "status_label": "Status",
+    "booking_class": "Cabin",
+    "rbd": "RBD",
+    "fare_family": "Fare Family",
+    "iata_number": "IATA Number",
+    "ticket_number": "Ticket Number",
+    "fare": "Fare",
+    "taxes": "Taxes",
+    "ancillary_type": "Ancillary Type",
+    "ancillary_revenue": "Ancillary Revenue",
+    "reward_type": "Reward paid per",
+    "reward_amount": "Reward Amount",
+    "segments_total": "Routes total",
+    "individual_target": "Individual Target",
+    "reward_paid_per": "Rewards accrued per",
+    "basic_information": "Basic information",
+    "promo_name": "Promo name",
+    "untitled": "Untitled",
+    "edit_promo": "Edit Promo",
+    "change_status": "Change status",
+    "activate_promo_title": "Activate promo",
+    "unpublish_promo_title": "Make Unpublished",
+    "current_status": "Current status",
+    "current_status_with_value": "Current status: {{status}}",
+    "choose_status": "Switch to another status?",
+    "select_status": "Select status",
+    "activate": "Activate",
+    "complete": "Complete",
+    "delete_promo": "Delete Promo",
+    "delete_promo_title": "Delete Promo",
+    "delete_promo_text": "Are you sure you want to delete this promo? This action cannot be undone.",
+    "enter_promo_name": "Enter promo name",
+    "enter_promo_description": "Enter promo description",
+    "enter_promo_rules": "Enter promo rules",
+    "promo_image": "Promo Image",
+    "image_preview": "Image Preview",
+    "fetch_promo_failed": "Failed to fetch promo",
+    "update_promo_failed": "Failed to update promo",
+    "promo_updated_successfully": "Promo updated successfully",
+    "finish_editing": "Finish Editing",
+    "add_reward": "Add Reward",
+    "add_target_audience": "Add Target Audience",
+    "select_agencies": "Select Agencies",
+    "select_country": "Select Country",
+    "select_countries": "Select Countries",
+    "select_flight_numbers": "Select Flight Numbers",
+    "select_audience": "Select Audience",
+    "select_incentive_type": "Select Incentive Type",
+    "select_paid_per": "Select Paid Per",
+    "select_currency": "Select Currency",
+    "enter_amount": "Enter Amount",
+    "select_booking_class_segments": "Select Booking Class Segments",
+    "interline_partners": "Interline Partners",
+    "codeshare_partners": "Codeshare Partners",
+    "origin_countries": "Origin Countries",
+    "destination_countries": "Destination Countries",
+    "origin_cities": "Origin Cities",
+    "destination_cities": "Destination Cities",
+    "flight_numbers": "Flight Numbers",
+    "flight_numbers_placeholder": "XX001\nXX002",
+    "flight_numbers_hint": "Enter one flight number per line",
+    "booking_class_segments": "Booking Class Segments",
+    "required": "Required field",
+    "end_date_must_be_after_start_date": "End date must be after start date",
+    "select_at_least_one_origin_country": "Select at least one origin country",
+    "select_at_least_one_destination_country": "Select at least one destination country",
+    "promo_description_short": "Promo description (short)",
+    "visual_materials": "Visual materials",
+    "image_aspect_ratio_tooltip": "Recommended aspect ratio 3.3:1 (e.g., 1200x364px, 1320x400px, 1650x500px). Width should be 3.3 times greater than height.",
+    "image_aspect_ratio_tooltip_mobile": "Recommended aspect ratio 1:2 (e.g., 600x1200px, 750x1500px). Height should be 2 times greater than width.",
+    "promo_rules": "Promo rules",
+    "rewards_description": "Rewards",
+    "from": "From",
+    "to": "To", 
+    "rewards": "Target",
+    "promo_description_rules": "Promo description (rules)",
+    "continue": "Continue",
+    "save": "Save",
+    "complete_later": "Complete later",
+    "uploading": "Uploading…",
+    "create_promo_failed": "Create promo failed",
+    "target_audience_n": "Target Audience {{n}}",
+    "target_country_n": "Target Country {{n}}",
+    "select_travel_agencies": "Select travel agencies",
+    "add_new_target_audience": "+ Add new target audience",
+    "add_new_target_country": "+ Add new target country",
+    "dates": "Dates",
+    "till": "Till",
+    "origin": "Origin",
+    "destination": "Destination",
+    "select_city": "Select City",
+    "select_cities": "Select Cities",
+    "select_flights": "Select Flights",
+    "partner_carriers": "Partner Carriers",
+    "additional_rules": "Additional Rules",
+    "international_only": "International flights only",
+    "is_bidirectional": "Bidirectional",
+    "select_at_least_one_country": "Select at least one country",
+    "select_at_least_one_city": "Select at least one city",
+    "from_before_till": "‘From’ must be before ‘Till’",
+    "failed_to_submit_rule": "Failed to submit rule",
+    "remove": "Remove",
+    "select_target_audience": "Select Target Audience",
+    "target_audience_subscription_tooltip": "To get the list of options, you need to subscribe to modules: Travel Agency / Travel Agent Module, Corporate Client Module, Passenger Module",
+    "invalid_audience_selection": "Please select a valid target audience",
+    "select_target_audience_to_save": "You need to select a target audience to save",
+    "add_threshold_set": "Add Threshold Set",
+    "reward": "Reward",
+    "select_segment": "Select Segment",
+    "number": "Number",
+    "usd_or_percent": "$ / %",
+    "baseline_segments": "Baseline (segments)",
+    "paid_when_baseline": "Paid when baseline threshold achieved",
+    "thresholds": "Thresholds",
+    "to_or_inf": "To (or 0 = ∞)",
+    "add_segment": "Add Segment",
+    "add_threshold": "Add Threshold",
+    "target_agency": "Target Agency",
+    "success_promo_created": "Promo «{{name}}» has been successfully created! You can view details in Homepage",
+    "failed_to_submit_incentives": "Failed to submit incentives",
+    "select_option": "Select option",
+    "baseline": "Baseline",
+    "target_audience_num": "Target Audience {{num}}",
+    "step_description": "Description",
+    "step_target_audience": "Target Countries",
+    "step_promo_rules": "Promo Rules",
+    "step_rewards_and_fees": "Rewards and Fees",
+    "no_access": {
+      "title": "You don't have access to the promo",
+      "subtitle": "Ask the administrator to grant read permissions."
+    },
+    "empty": {
+      "title": "There are no promos here yet",
+      "subtitle": "Start creating a new one"
+    },
+    "status": {
+      "Active": "Active",
+      "Completed": "Completed",
+      "Unpublished": "Unpublished"
+    },
+    "all_countries": "All countries",
+    "all_cities": "All cities",
+    "status_header": "Status",
+    "TravelAgency": "Travel Agency",
+    "TravelAgent": "Travel Agent",
+    "BookingClass": "Cabin",
+    "RBD": "RBD",
+    "FareFamily": "Fare Family",
+    "Ancillary": "Ancillary"
+  },
+  "auth": {
+    "Travel Agent": "Travel Agent",
+    "Travel Agency": "Travel Agency",
+    "Airline": "Airline",
+    "login": "Login",
+    "register": "Register",
+    "username": "Username",
+    "password": "Password",
+    "loading": "Loading...",
+    "loginSuccess": "Login successful!",
+    "loginFail": "Login failed",
+    "fillFields": "Please fill in required fields",
+    "forgot": "Forgot password?",
+    "email": "e-mail",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "phone": "Phone",
+    "commentOptional": "Comment (optional)",
+    "registerAgentTitle": "Register as Travel Agent",
+    "registerSuccess": "Registration successful",
+    "registerFail": "Registration failed",
+    "passwordShort": "Password must be at least 6 characters",
+    "modal": {
+      "welcome": "Welcome",
+      "signInToAccount": "Sign in to your account",
+      "signUp": "Sign up",
+      "confirmEmail": "Confirm your email",
+      "forgotPassword": "Password Recovery",
+      "resetPassword": "Reset Password",
+      "signIn": "Sign In",
+      "signUpButton": "Sign Up",
+      "errors": {
+        "invalidEmailOrPassword": "Invalid email or password",
+        "accessDenied": "Access denied. Contact administrator",
+        "serverError": "Server error. Please try later",
+        "networkError": "Network error. Check your internet connection",
+        "loginError": "An error occurred during login. Please try again.",
+        "checkData": "Check the correctness of the entered data",
+        "userExists": "User with this email already exists",
+        "registrationError": "An error occurred during registration. Please try again.",
+        "invalidCode": "Invalid confirmation code",
+        "codeNotFound": "Confirmation code not found or expired",
+        "confirmationError": "An error occurred during confirmation. Please try again.",
+        "invalidEmail": "Invalid email",
+        "userNotFound": "User with this email not found",
+        "invalidTokenOrPassword": "Invalid code or password",
+        "tokenNotFound": "Code not found or expired",
+        "passwordResetRequestError": "An error occurred during password reset request. Please try again.",
+        "passwordResetError": "An error occurred during password reset. Please try again."
+      },
+      "success": {
+        "loginSuccess": "Login successful!",
+        "registrationSuccess": "Registration successful! Check your email for the confirmation code.",
+        "emailConfirmed": "Email successfully confirmed!",
+        "emailConfirmedSimple": "Email successfully confirmed!",
+        "passwordResetLinkSent": "Password reset link has been sent to your email",
+        "passwordResetSuccess": "Password successfully reset!"
+      }
+    },
+    "loginForm": {
+      "email": "Email",
+      "password": "Password",
+      "enterEmail": "Enter your email",
+      "enterPassword": "Enter your password",
+      "signIn": "Sign In",
+      "signingIn": "Signing in...",
+      "forgotPassword": "Forgot password?",
+      "errors": {
+        "emailRequired": "Email is required",
+        "emailInvalid": "Enter a valid email",
+        "passwordRequired": "Password is required",
+        "passwordMinLength": "Password must contain at least 6 characters"
+      }
+    },
+    "registrationForm": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "phone": "Phone",
+      "country": "Country",
+      "enterFirstName": "Enter your first name",
+      "enterLastName": "Enter your last name",
+      "enterEmail": "Enter your email",
+      "enterPassword": "Enter your password",
+      "enterPhone": "Enter your phone",
+      "enterCountry": "Enter your country",
+      "selectCountry": "Select country",
+      "loadingCountries": "Loading countries...",
+      "signUp": "Sign Up",
+      "registering": "Registering...",
+      "errors": {
+        "firstNameRequired": "First name is required",
+        "firstNameLatinOnly": "First name must contain only Latin letters",
+        "lastNameRequired": "Last name is required",
+        "lastNameLatinOnly": "Last name must contain only Latin letters",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Enter a valid email",
+        "passwordRequired": "Password is required",
+        "passwordMinLength": "Password must contain at least 6 characters",
+        "phoneRequired": "Phone is required",
+        "countryRequired": "Country is required"
+      }
+    },
+    "confirmForm": {
+      "confirmationCode": "Confirmation Code",
+      "enterCode": "Enter code from email",
+      "codeSentTo": "Code sent to",
+      "confirm": "Confirm",
+      "confirming": "Confirming...",
+      "back": "Back",
+      "errors": {
+        "codeRequired": "Confirmation code is required",
+        "codeMinLength": "Code must contain at least 4 characters"
+      }
+    },
+    "forgotPasswordForm": {
+      "email": "Email",
+      "enterEmail": "Enter your email",
+      "instructions": "We will send you a password reset link to the specified email",
+      "sendResetLink": "Send reset link",
+      "sending": "Sending...",
+      "back": "Back",
+      "errors": {
+        "emailRequired": "Email is required",
+        "emailInvalid": "Enter a valid email"
+      }
+    },
+    "resetPasswordForm": {
+      "token": "Code",
+      "enterToken": "Enter code from email",
+      "tokenInstructions": "Enter the code that was sent to your email",
+      "newPassword": "New Password",
+      "enterNewPassword": "Enter new password",
+      "confirmPassword": "Confirm Password",
+      "enterConfirmPassword": "Confirm new password",
+      "resetPassword": "Reset Password",
+      "resetting": "Resetting password...",
+      "back": "Back",
+      "errors": {
+        "tokenRequired": "Code is required",
+        "passwordRequired": "Password is required",
+        "passwordMinLength": "Password must contain at least 6 characters",
+        "confirmPasswordRequired": "Password confirmation is required",
+        "passwordsDoNotMatch": "Passwords do not match"
+      }
+    },
+    "agreementsModal": {
+      "title": "Agreements",
+      "subtitle": "Please review the agreements before registration",
+      "loading": "Loading agreements...",
+      "loadError": "Failed to load agreements. Please try again later.",
+      "noAgreements": "No agreements found",
+      "continueRegistration": "Continue Registration",
+      "document": "Document",
+      "of": "of",
+      "previous": "Previous",
+      "next": "Next",
+      "version": "Version",
+      "updated": "Updated",
+      "read": "Read",
+      "scrollToEnd": "Scroll to the end to mark as read",
+      "readProgress": "Read",
+      "acceptAndContinue": "Accept and Continue Registration",
+      "pleaseReadAll": "Please read all agreements",
+      "clickToView": "Click to view document",
+      "close": "Close"
+    },
+    "changePassword": {
+      "title": "Change Password",
+      "successTitle": "Password Successfully Changed",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "cancel": "Cancel",
+      "submit": "Change Password",
+      "saving": "Saving...",
+      "successMessage": "Password successfully changed!",
+      "autoCloseMessage": "Modal will close automatically",
+      "requirements": "Password requirements:",
+      "minLength": "At least 8 characters",
+      "hasUpperCase": "Uppercase letter",
+      "hasLowerCase": "Lowercase letter",
+      "hasNumber": "Number",
+      "hasSpecialChar": "Special character",
+      "errors": {
+        "enterCurrentPassword": "Enter current password",
+        "passwordNotMeetRequirements": "New password does not meet security requirements",
+        "passwordsDoNotMatch": "Passwords do not match",
+        "newPasswordSameAsOld": "New password must be different from current password",
+        "passwordNotMeetRequirementsField": "Password does not meet requirements",
+        "passwordsDoNotMatchField": "Passwords do not match",
+        "genericError": "An error occurred while changing password"
+      }
+    }
+  },
+  "demo": {
+    "title": "Leave a request for demo",
+    "department": "Department",
+    "team": "Team",
+    "jobTitle": "Job Title",
+    "companyName": "Company name",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "phoneNumber": "Phone number",
+    "email": "e-mail",
+    "send": "Send",
+    "sending": "Sending...",
+    "sent": "Request sent!",
+    "errorSend": "Failed to send request.",
+    "fillAllFields": "Please fill in all fields.",
+    "emailInvalid": "Please enter a valid e-mail address.",
+    "latinOnly": "Field must contain only Latin characters.",
+    "validationTooltip": "All fields must be filled with Latin characters (A-Z, a-z, 0-9, spaces and basic punctuation marks)."
+  },
+  "hero": {
+    "agent": {
+      "title": "Be part of the global movement",
+      "subtitle": "united around airlines"
+    },
+    "agency": {
+      "title": "Grow your business",
+      "subtitle": "built on a long-term partnerships"
+    },
+    "airline": {
+      "title": "Join Sales & Marketing",
+      "title1": "leaders of tomorrow",
+      "subtitle": "take your Sales & Marketing activities to the next level"
+    },
+    "access": "Access request"
+  },
+  "header": {
+    "agent": "Travel Agent",
+    "agency": "Travel Agency",
+    "airline": "Airline",
+    "phone": "+77027023010",
+    "lang": "Language"
+  },
+  "quote": {
+    "agent": {
+      "title": "Get Rewarded by your partner Brands",
+      "subtitle": ""
+    },
+    "agency": {
+      "title": "Take your partnership with your Suppliers to the Next level",
+      "subtitle": "Boost productivity by keeping ticketing agent incentivized"
+    },
+    "airline": {
+      "title": "Turn Travel Agents into your extended Sales team",
+      "subtitle": "Build your Brand Strategy with your customer at the heart of it"
+    }
+  },
+  "loyalty": {
+    "commonTitle": "One Loyalty Platform",
+    "agent": [
+      { "title": "25", "subtitle": "Airlines" },
+      { "title": "", "subtitle": "For all your rewards in one place" },
+      { "title": "100", "subtitle": "Hotel Brands" }
+    ],
+    "agency": [
+      { "title": "25", "subtitle": "Airlines" },
+      { "title": "", "subtitle": "For all your rewards in one place" },
+      { "title": "100", "subtitle": "Hotel Brands" }
+    ],
+    "airline": {
+      "block1": { "title": "15", "subtitle": "Markets" },
+      "block2": {
+        "title": "1",
+        "subtitle": "stop-shop solution to manage your B2B partners, passengers, sales, marketing and green activities"
+      },
+      "block3": {
+        "subtitle": "1 000 Travel Agencies\n10 000 Travel Agents\n150 Corporate Clients",
+        "travelAgencies": "Travel Agencies",
+        "travelAgents": "Travel Agents",
+        "corporateClients": "Corporate Clients"
+      },
+      "block4": { "title": "150 000", "subtitle": "passengers" }
+    }
+  },
+  "footer": {
+    "agency": "For travel agency",
+    "getDemo": "Get demo",
+    "agent": "For travel agent",
+    "help": "Help",
+    "airline": "For airlines",
+    "phoneLabel": "Phone number",
+    "emailLabel": "e-mail"
+  },
+  "profile": {
+    "department": "Department",
+    "structure": "Structure",
+    "branches": "Branches",
+    "branch": "Branch",
+    "branchType": "Branch Type",
+    "phoneLabel": "Phone number",
+    "extensionPhone": "Phone number (ext)",
+    "jobTitle": "Job Title",
+    "positions": "Job titles",
+    "roles": "Job titles",
+    "users": "Employees",
+    "branchTypes": "Branch Types",
+    "user": "User",
+    "company": "Company",
+    "organization": "Organization",
+    "edit": "Edit",
+    "legalNameLabel": "Registered name:",
+    "loadingRequests": "Loading requests…",
+    "requestNumber": "Request #",
+    "status": "Status:",
+    "comment": "Comment:",
+    "created": "Created:",
+    "cancel": "Cancel",
+    "newRequest": "New request",
+    "notJoinedYet": "You are not yet joined to an agency. Send a request to join.",
+    "sendRequestToAgency": "Send request to agency",
+    "userProfile": "Administrator Profile",
+    "companyProfile": "Company Profile",
+    "addresses": "Addresses",
+    "legalAddress": "Registered Address",
+    "headquartersAddress": "Head office",
+    "mailingAddress": "Post address",
+    "countryOfIncorporation": "Country",
+    "firstAddressLine": "Address line 1",
+    "secondAddressLine": "Address line 2",
+    "postIndex": "Post Index",
+    "city": "City",
+    "sameAsRegistered": "same as registered address",
+    "corporateEmail": "Corporate e-mail",
+    "ain": "AIN",
+    "legalName": "Registered Name",
+    "airlineCodes": "Airline Codes",
+    "companyCodes": "Company Codes",
+    "agencyInfo": "Agency Information",
+    "agentInfo": "Agent Information",
+    "businessType": "Business Type",
+    "iataDesignator": "IATA Code (2 letter code)",
+    "iataNumericCode": "IATA Code (3 digit code)",
+    "iataValidator": "IATA Validator",
+    "iataValidatorTooltip": "For IATA Travel agencies only",
+    "iataOfficeIds": "IATA Office ID's",
+    "officeIds": "Office ID's",
+    "officeIdsTooltip": "For subagencies",
+    "icaoCode": "ICAO Code",
+    "pseudoCityCode": "Pseudo City Code",
+    "pseudoCityCodeTooltip": "Head office PCC's only",
+    "repeat": "Retry",
+    "error": "Error",
+    "changePassword": "Change Password",
+    "emailLabel": "e-mail"
+  },
+  "common": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "save": "Save",
+    "confirm": "Confirm",
+    "confirm_title": "Confirmation",
+    "saving": "Saving...",
+    "actions": "Actions",
+    "end_of_list": "You reached the end",
+    "selectBranch": "Select branch",
+    "selectRole": "Select job title",
+    "selectDepartment": "Select department",
+    "loadFail": "Failed to load data",
+    "loading": "Loading...",
+    "selectAgency": "Select agency",
+    "selectCityOptional": "City (optional)",
+    "selectCountry": "Select country",
+    "selectCity": "Select city",
+    "all": "All",
+    "messageForAgency": "Message for agency",
+    "sendRequestToAgency": "Send request to agency",
+    "sending": "Sending...",
+    "send": "Send",
+    "requestSent": "Request sent",
+    "failedToSendRequest": "Failed to send request",
+    "selectAgencyFirst": "Select agency",
+    "failedToLoadCountries": "Failed to load countries",
+    "failedToLoadBusinessData": "Failed to load business data",
+    "failedToLoad": "Failed to load",
+    "businessNotFound": "Business not found",
+    "notSpecified": "Not specified",
+    "required": "Required field",
+    "selectBank": "Select bank",
+    "selectBranchOptional": "Branch (optional)",
+    "selectRoleOptional": "Job title (optional)",
+    "selectStructureOptional": "Structure (optional)"
+  },
+  "structures": {
+    "title": "Company structure",
+    "empty": "Empty. Click “Add”.",
+    "col": {
+      "name": "Team",
+      "type": "Type",
+      "parent": "Department",
+      "department": "Department",
+      "team": "Team",
+      "actions": "Actions"
+    },
+    "delete": {
+      "title": "Delete unit",
+      "text": "Delete “{{name}}”? This action cannot be undone.",
+      "textShort": "Delete item? This action cannot be undone."
+    },
+    "error": {
+      "loadBusiness": "Failed to get business",
+      "loadList": "Failed to load list"
+    },
+    "modal": {
+      "addTitle": "Add unit",
+      "editTitle": "Edit unit",
+      "fillRequired": "Fill in name and type.",
+      "saveError": "Failed to save"
+    },
+    "fields": {
+      "name": "Name",
+      "type": "Type",
+      "parent": "Department",
+      "namePlaceholder": "e.g. Marketing",
+      "selectName": "Select name"
+    },
+    "parent": {
+      "none": "— None (root level)"
+    },
+    "types": {
+      "loading": "Loading types…",
+      "error": "Failed to load types",
+      "department": "Department",
+      "team": "Team"
+    },
+    "directories": {
+      "loading": "Loading directories…",
+      "error": "Failed to load directories"
+    }
+  },
+  "roles": {
+    "title": "Job title",
+    "empty": "Empty. Click “Add”.",
+    "col": {
+      "code": "Code",
+      "name": "Name",
+      "permissionsCount": "Permissions",
+      "actions": "Actions"
+    },
+    "delete": {
+      "title": "Delete job title",
+      "text": "Delete “{{name}}”? This action cannot be undone.",
+      "textShort": "Delete item? This action cannot be undone."
+    },
+    "error": {
+      "loadBusiness": "Failed to get business",
+      "loadList": "Failed to load list",
+      "loadItem": "Failed to load job title"
+    },
+    "modal": {
+      "addTitle": "Add job title",
+      "editTitle": "Edit job title",
+      "fillRequired": "Fill in name.",
+      "saveError": "Failed to save"
+    },
+    "fields": {
+      "code": "Code",
+      "name": "Name",
+      "permissions": "Permissions",
+      "selectName": "Select name"
+    },
+    "searchPlaceholder": "Search by code/ID…",
+    "selectVisible": "Select visible",
+    "clearAll": "Clear all",
+    "nothingFound": "Nothing found",
+    "selectedCount": "Selected: {{count}}"
+  },
+  "positions": {
+    "loading": "Loading positions…",
+    "error": "Failed to load positions"
+  },
+  "users": {
+    "title": "Users",
+    "empty": "Empty. Click “Add”.",
+    "col": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "e-mail",
+      "role": "Job title",
+      "structure": "Department",
+      "department": "Department",
+      "team": "Team",
+      "branch": "Branch",
+      "phone": "Phone",
+      "extensionPhone": "Extension phone",
+      "actions": "Actions"
+    },
+    "none": "— None",
+    "delete": {
+      "title": "Delete user",
+      "text": "Delete “{{first}} {{last}}”?",
+      "textShort": "Delete item?"
+    },
+    "error": {
+      "loadBusiness": "Failed to get business",
+      "loadData": "Failed to load data"
+    },
+    "modal": {
+      "addTitle": "Add user",
+      "editTitle": "Edit user",
+      "fillRequired": "Fill in first name, last name and e-mail.",
+              "noRoles": "No available job titles.",
+        "selectValidRole": "Select a valid job title.",
+      "selectBranch": "Select a branch",
+      "passwordRequired": "Set a password for a new user.",
+      "saveError": "Failed to save"
+    },
+    "fields": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "e-mail",
+      "ain": "AIN",
+      "role": "Job title",
+      "department": "Department",
+      "team": "Team",
+      "structure": "Structure",
+      "branch": "Branch",
+      "phone": "Phone",
+      "extensionPhone": "Extension phone",
+      "resetPassword": "Reset password"
+    }
+  },
+  "branchTypes": {
+    "title": "Branch Types",
+    "col": {
+      "name": "Name"
+    },
+    "empty": "Empty. Click “Add”.",
+    "delete": {
+      "title": "Delete branch type",
+      "text": "Delete “{{name}}”? This action cannot be undone.",
+      "textShort": "Delete item?"
+    },
+    "error": {
+      "loadBusiness": "Failed to get business",
+      "loadList": "Failed to load list"
+    },
+    "modal": {
+      "addTitle": "Add branch type",
+      "editTitle": "Edit branch type",
+      "nameRequired": "Enter branch type name.",
+      "saveError": "Failed to save"
+    },
+    "fields": {
+      "name": "Name",
+      "namePh": "e.g. Representative Office"
+    }
+  },
+  "branches": {
+    "title": "Branches",
+    "col": {
+      "name": "Name",
+      "type": "Type",
+      "country": "Country",
+      "city": "City",
+      "location": "Address"
+    },
+    "empty": "Empty. Click “Add”.",
+    "delete": {
+      "title": "Delete branch",
+      "text": "Delete “{{name}}”? This action cannot be undone.",
+      "textShort": "Delete item?"
+    },
+    "error": {
+      "loadBusiness": "Failed to get business",
+      "loadList": "Failed to load list"
+    },
+    "citiesLoading": "Loading cities…",
+    "modal": {
+      "addTitle": "Add branch",
+      "editTitle": "Edit branch",
+      "fillAll": "Fill in all fields.",
+      "saveError": "Failed to save",
+      "locationRequired": "Address is required"
+    },
+    "fields": {
+      "name": "Name",
+      "namePh": "e.g. Almaty office",
+      "type": "Branch type",
+      "country": "Country",
+      "city": "City",
+      "pseudoCityCode": "PCC",
+      "pseudoCityCodeHint": "Each code starts from a new line",
+      "location": "Address",
+      "locationPh": "Street, building, office…",
+      "locationTooltip": "How do you usually call your office, e.g. \"on Abay\"",
+      "title": "Title",
+      "officeNickname": "Office nickname"
+    }
+  },
+  "business": {
+    "modal": {
+      "title": "Edit Company Profile",
+      "fillNames": "Fill in trading and registered names.",
+      "badEmail": "Enter a valid corporate e-mail.",
+      "saveError": "Failed to save",
+      "latinInfo": "All information must be filled in Latin letters"
+    },
+    "fields": {
+      "tradingName": "Trading Name",
+      "legalName": "Registered Name",
+      "legalAddress": "Registered Address",
+      "hqAddress": "Head Office Address",
+      "mailingAddress": "Post address",
+      "countryOfIncorporation": "Country",
+      "firstAddressLine": "Address Line 1",
+      "secondAddressLine": "Address Line 2",
+      "postIndex": "Post Index",
+      "city": "City",
+      "sameAsRegistered": "Same as registered address",
+      "sameAsRegisteredAddress": "Same as registered address",
+      "corporateEmail": "Corporate e-mail",
+      "iata": "IATA (2 letters code)",
+      "icao": "ICAO",
+      "pcc": "Pseudo City Code",
+      "iataNumeric": "IATA numeric (3 digits code)",
+      "ain": "AIN",
+      "pseudoCityCode": "Pseudo City Code",
+      "pseudoCityCodePh": "ABC1\nXYZ2",
+      "pseudoCityCodeHint": "Enter one code per line",
+      "pseudoCityCodeTooltip": "Head office PCC's only",
+      "iataValidator": "IATA Validator",
+      "iataValidatorPh": "Validator1\nValidator2",
+      "iataValidatorHint": "Enter one validator per line",
+      "iataValidatorTooltip": "For IATA Travel Agencies only",
+      "officeIds": "Office ID's",
+      "officeIdsPh": "Office1\nOffice2",
+      "officeIdsHint": "Enter one office ID per line",
+      "officeIdsTooltip": "For subagencies",
+      "registeredAddress": "Registered Address",
+      "headOfficeAddress": "Head Office Address"
+    },
+    "logo": {
+      "label": "Logo",
+      "placeholder": "…or paste logo URL",
+      "clear": "Clear",
+      "uploading": "Uploading logo…",
+      "tooltip": "Upload a square image for the logo"
+    },
+    "validation": {
+      "latinOnly": "Only Latin letters are allowed",
+      "latinAndNumbers": "Only Latin letters and numbers are allowed",
+      "address": "Only Latin letters, numbers and spaces are allowed",
+      "companyName": "Only Latin letters, numbers and spaces are allowed"
+    }
+  },
+  "permissions": {
+    "business": { "read": "Company Profile — View", "write": "Company Profile — Create and Edit" },
+    "branch":   { "read": "Branches — View",   "write": "Branches — Create and Edit"   },
+    "promo":    { "read": "Promos — View",     "write": "Promos — Create and Edit"     },
+    "permission": { "read": "Permissions — View", "write": "Permissions — Create and Edit" },
+    "role":     { "read": "Job titles — View",      "write": "Job titles — Create and Edit"      },
+    "user":     { "read": "Employees — View",      "write": "Employees — Create and Edit"      },
+    "location": { "read": "Locations — View",  "write": "Locations — Create and Edit"  },
+    "membership": { "read": "Membership Requests — View", "write": "Membership Requests — Create and Edit" },
+    "imsfee": { "read": "IMS Fees — View", "write": "IMS Fees — Create and Edit" },
+    "subscriptions": { "read": "Subscriptions — View", "write": "Subscriptions — Create and Edit" },
+    "document": { "read": "Documents — View", "write": "Documents — Create and Edit" },
+    "requisites": { "read": "Requisites — View", "write": "Requisites — Create and Edit" }
+  },
+  "membership": {
+    "title": "Membership requests",
+    "total": "Total: {{total}}",
+    "loading": "Loading...",
+    "empty": "No requests yet",
+    "col": {
+      "created": "Created",
+      "status": "Status",
+      "branch": "Branch",
+      "actions": "Actions",
+      "comment": "Comment",
+      "applicant": "Applicant",
+      "email": "e-mail"
+    },
+    "status": { "Pending": "Pending", "Approved": "Approved", "Rejected": "Rejected" },
+    "approve": "Approve",
+    "reject": "Reject",
+    "prev": "Prev",
+    "next": "Next",
+    "approveTitle": "Approve request",
+    "rejectTitle": "Reject request",
+    "approved": "Request approved",
+    "rejected": "Request rejected",
+    "actionFail": "Failed to process request",
+    "reasonPlaceholder": "Reason (optional)"
+  },
+  "stats": {
+    "loading": "Loading stats...",
+    "total": "Total",
+    "unconfirmed": "Unconfirmed",
+    "confirmed": "Confirmed",
+    "pending": "Pending",
+    "paid": "Paid so far",
+    "total_sub": "all time rewards",
+    "unconfirmed_sub": "unflown segments",
+    "confirmed_sub": "flown segments",
+    "pending_sub": "expecting from airline",
+    "paid_sub": "accrued rewards"
+  },
+  "requisites": {
+    "title": "Requisites",
+    "description": "Requisites will be displayed here",
+    "createTitle": "Create Requisites",
+    "editTitle": "Edit Requisites",
+    "fields": {
+      "legalEntity": "Legal Entity",
+      "bin": "BIN",
+      "legalName": "Registered Name",
+      "legalAddress": "Registered Address",
+      "legalNamePlaceholder": "Enter registered name",
+      "legalAddressPlaceholder": "Enter registered address",
+      "bank": "Bank",
+      "bik": "BIK",
+      "accountNumber": "Account Number/IIK"
+    },
+    "agency": {
+      "description": "Agency requisites will be displayed here"
+    },
+    "agent": {
+      "description": "Agent requisites will be displayed here"
+    },
+    "empty": "No requisites found",
+    "emptyDescription": "Create requisites for your business",
+    "addNew": "Add Requisites",
+    "requisiteNumber": "Requisites",
+    "deleteTitle": "Delete Requisites",
+    "deleteText": "Are you sure you want to delete these requisites? This action cannot be undone."
+  },
+  "enums": {
+    "bookingClass": {
+      "1": "Business",
+      "2": "Economy",
+      "3": "First"
+    },
+    "rewardTriggerType": {
+      "1": "Booking Class",
+      "2": "Fare Family",
+      "3": "Ancillary"
+    },
+    "tripStatus": {
+      "1": "Open",
+      "2": "Flown",
+      "3": "Refunded"
+    }
+  },
+    "subscription": {
+        "title": "Subscriptions",
+        "plans": {
+            "title": "Available Modules",
+            "subscribe": "Subscribe",
+            "subscribing": "Subscribing...",
+            "subscribed": "Active Subscription",
+            "expired": "Expired",
+            "unsubscribe": "Unsubscribe",
+            "unsubscribing": "Unsubscribing...",
+            "baseFee": "Base Fee",
+            "variableRate": "Variable Rate",
+            "startDate": "Start",
+            "endDate": "End",
+            "noPlans": "No plans available"
+        },
+        "subscriptions": {
+            "title": "My Subscriptions",
+            "plan": "Plan",
+            "baseFee": "Base Fee",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "status": "Status",
+            "actions": "Actions",
+            "active": "Active",
+            "inactive": "Inactive",
+            "expired": "Expired",
+            "noSubscriptions": "No active subscriptions",
+            "noAction": "No actions"
+        },
+        "unsubscribe": {
+            "title": "Confirm Unsubscription",
+            "message": "Are you sure you want to unsubscribe from this plan? This action cannot be undone."
+        }
+    },
+    "passenger": {
+        "nav": {
+            "home": "Home",
+            "wallet": "Wallet",
+            "trips": "Trips",
+            "account": "My Account",
+            "more": "More"
+        },
+        "home": {
+            "loading": "Loading...",
+            "noStories": "No available stories",
+            "myAccount": "My Account",
+            "bookATrip": "Book a Trip",
+            "categoryDescription": "This is a {{name}} category. Here you can find all available offers and partners in this category.",
+            "partnerDescription": "This is a {{name}} partner. Learn more about our special offers and promotions.",
+            "categories": {
+                "airline": "Airlines",
+                "hotel": "Hotels",
+                "gym": "Gyms",
+                "bank": "Banks",
+                "restaurant": "Restaurants",
+                "coffee": "Coffee"
+            },
+            "readMore": "Read more"
+        },
+        "account": {
+            "title": "My account",
+            "accountDetails": "Account details",
+            "recentTransactions": "Recent transactions",
+            "imsSavvyMember": "IMS Savvy member",
+            "totalMiles": "Total Miles",
+            "totalMilesTooltip": "Total number of miles available to redeem at the moment",
+            "pending": "Pending",
+            "pendingTooltip": "Total number of miles expected from partners",
+            "lastThreeMonthsTooltip": "Statuses separately achieved each month over the last 3 months period",
+            "statusBenefitsNote": "To use status benefits, you have to achieve at least the same status for the last 3 months",
+            "noStatus": "No Status",
+            "loyaltyRewards": "Loyalty Rewards",
+            "completeTicketTransactions": "Complete ticket transactions quickly by scanning your digital card.",
+            "scanQRCode": "Scan QR Code",
+            "scanQRCodeInstruction": "Point your camera at the QR code",
+            "copyMembershipId": "Copy membership ID",
+            "loadingTierHistories": "Loading tier history...",
+            "noTierData": "No tier data available",
+            "active": "Active",
+            "subscription": "Subscription",
+            "discount": "discount",
+            "trips": "Trips",
+            "or": "OR",
+            "monthlyActivity": "Monthly Activity",
+            "contactInformation": "Contact Information",
+            "email": "Email",
+            "phone": "Phone",
+            "loadingTransactions": "Loading transactions...",
+            "noTransactions": "No transactions",
+            "copyToClipboard": "Copy to clipboard",
+            "copied": "Copied",
+            "loading": "Loading...",
+            "membership": "Membership",
+            "progressThisMonth": "Progress this {{month}}",
+            "achieveNextStatus": "Achieve your next status by hitting certain number of:"
+        },
+        "more": {
+            "title": "More",
+            "subtitle": "Additional features",
+            "profile": "Profile",
+            "settings": "Settings",
+            "help": "Help",
+            "language": "Language",
+            "userAgreement": "User Agreement",
+            "chat": "Chat",
+            "logout": "Logout",
+            "loadingAgreements": "Loading agreements...",
+            "noAgreements": "No agreements available",
+            "agreementTitle": "User Agreement",
+            "version": "Version",
+            "updatedAt": "Updated"
+        },
+        "profile": {
+            "title": "Profile",
+            "subtitle": "Your account information",
+            "personalInformation": "Personal Information",
+            "fullName": "Full Name",
+            "email": "Email",
+            "phone": "Phone",
+            "country": "Country",
+            "imsNumber": "IMS Number",
+            "extensionPhoneNumber": "Extension Phone Number",
+            "ain": "AIN",
+            "userId": "User ID",
+            "failedToLoad": "Failed to load profile information",
+            "userNotFound": "User not found",
+            "goBack": "Go Back"
+        },
+        "wallet": {
+            "title": "Wallet",
+            "subtitle": "Balance and payment management",
+            "balance": "Balance",
+            "transactionHistory": "Transaction History",
+            "noTransactions": "No transactions yet",
+            "transfer": "Transfer",
+            "transferMiles": "Transfer Miles",
+            "wishlist": "Wishlist",
+            "noWishlistItems": "No wishlist items yet",
+            "progress": "Progress",
+            "from": "From",
+            "to": "To",
+            "selectSource": "Select source",
+            "selectDestination": "Select destination",
+            "amount": "Amount",
+            "enterAmount": "Enter amount",
+            "name": "Name",
+            "selectName": "Select name",
+            "nameOptions": {
+                "dreamHoliday": "Dream Holiday",
+                "familyVacation": "Family Vacation",
+                "friendsTrip": "Friends Trip",
+                "weekendEscape": "Weekend Escape",
+                "chooseYourOwn": "Choose your own"
+            },
+            "typeIn": "Type in",
+            "typeNumber": "Enter number",
+            "max15Letters": "max 15 letters",
+            "destination": "Destination",
+            "countryOrCity": "Country or city",
+            "targetTrip": "Target trip",
+            "setMilesAmountRequired": "set Miles Amount required for this trip",
+            "setRules": "Set Rules",
+            "percentOfTransactions": "% of all transactions which move to this sub wallet",
+            "selectRule": "Select rule",
+            "percentOfEachTransaction": "% of each transaction",
+            "create": "Create",
+            "target": "Target",
+            "complete": "complete",
+            "rulesSet": "Rules set",
+            "ffCard": "FF card",
+            "member": "Member",
+            "allTimeMiles": "All time Miles",
+            "allTimeMilesTooltip": "Total number of miles accumulated over the entire participation period in the program",
+            "availableToRedeem": "Available to redeem",
+            "pending": "Pending",
+            "pendingTooltip": "Total number of miles expected from partners",
+            "accounts": "Accounts",
+            "history": "History",
+            "loading": "Loading...",
+            "transferError": "Failed to transfer miles",
+            "transferring": "Transferring...",
+            "noRulesSet": "No rules set",
+            "deleteError": "Failed to delete wishlist",
+            "transferBeforeDelete": "Transfer funds before deleting",
+            "transferFundsMessage": "This wishlist has {{amount}} miles. Where would you like to transfer them?",
+            "transferTo": "Transfer to",
+            "confirmDelete": "Confirm deletion",
+            "confirmDeleteMessage": "Are you sure you want to delete this wishlist? This action cannot be undone.",
+            "cancel": "Cancel",
+            "deleting": "Deleting...",
+            "delete": "Delete",
+            "createError": "Failed to create wishlist",
+            "creating": "Creating...",
+            "country": "Country",
+            "selectCountry": "Select country",
+            "city": "City",
+            "optional": "optional",
+            "selectCity": "Select city",
+            "updateError": "Failed to update wishlist",
+            "editWishlist": "Edit Wishlist",
+            "saving": "Saving...",
+            "save": "Save",
+            "transactionTypes": {
+                "credit": "Credit",
+                "debit": "Debit"
+            },
+            "transactionStatuses": {
+                "confirmed": "Confirmed",
+                "pending": "Pending",
+                "cancelled": "Cancelled"
+            },
+            "transactionCategories": {
+                "restaurant": "Restaurant",
+                "hotel": "Hotel",
+                "airline": "Airline",
+                "flight": "Flight",
+                "banking": "Banking",
+                "gasStation": "Gas Station",
+                "gym": "Gym",
+                "coffee": "Coffee"
+            }
+        },
+        "trips": {
+            "title": "Trips",
+            "subtitle": "Trip management",
+            "myTrips": "My Trips",
+            "bookATrip": "Book a Trip",
+            "noTripsYet": "No trips yet",
+            "tripHistoryDescription": "Your trip history will appear here",
+            "upcoming": "Upcoming",
+            "completed": "Completed",
+            "flights": "Flights",
+            "hotels": "Hotels",
+            "services": "Services",
+            "from": "FROM",
+            "to": "TO",
+            "departureDate": "DEPARTURE DATE",
+            "returnDate": "RETURN DATE",
+            "checkIn": "CHECK IN",
+            "checkOut": "CHECK OUT",
+            "date": "DATE",
+            "endDate": "END DATE",
+            "select": "Select",
+            "done": "Done",
+            "inProgress": "Page in Development",
+            "inProgressDescription": "This page is currently under development. Trip booking functionality will be available soon.",
+            "oneWay": "ONE WAY",
+            "roundTrip": "ROUND TRIP",
+            "bookAFlight": "BOOK A FLIGHT",
+            "cancel": "Cancel"
+        }
+    },
+    "landing": {
+        "header": {
+            "signIn": "Sign in",
+            "menu": {
+                "collectMiles": "Collect Miles",
+                "spendMiles": "Spend Miles",
+                "membership": "Membership"
+            }
+        },
+        "hero": {
+            "title": "Our Partners pay\nfor your Holiday"
+        },
+        "collectMiles": {
+            "title": "collect miles",
+            "subtitle": "your daily activity turns\ninto your next holiday",
+            "description": "Every time you book a flight, stay at a hotel, enjoy dinner with family or friends, or even grab your takeaway coffee — you collect miles from our Partners.",
+            "activities": {
+                "banking": "Banking",
+                "bankingDesc": "Monthly card payments",
+                "gasStation": "Gas Station",
+                "gasStationDesc": "Filled the tank",
+                "restaurant": "Restaurant",
+                "restaurantDinner": "Dinner with family",
+                "restaurantLunch": "Lunch with partner",
+                "flight": "Flight",
+                "flightDesc": "Airline",
+                "gym": "Gym",
+                "gymDesc": "Monthly fee",
+                "hotel": "Hotel",
+                "hotelDesc": "Business trip",
+                "coffee": "Coffee",
+                "coffeeDesc": "With friends",
+                "miles": "Miles"
+            },
+            "unifiedMiles": {
+                "title": "Unified Miles",
+                "paragraph1": "IMS Miles are unified Miles which means every time you take your flight, stay at hotel, buy a croissant or pay using a credit card, you collect the same IMS Miles from all our Partners.",
+                "paragraph2Intro": "No need to register any more for:",
+                "paragraph2Item1": "•10 different airline loyalty programs",
+                "paragraph2Item2": "•20 different hotel loyalty programs",
+                "paragraph2Item3": "•30 different restaurant & coffee shop loyalty programs",
+                "paragraph2End": "All your rewards are now unified & in one place. Keep track of all your activity & Miles collected from different places in one window.",
+                "paragraph3": "Moveover, IMS Miles never expire, nor capped, giving flexibility & control over your rewards. With a wide range of ecosystem partners, you can collect miles with your daily activity at your home country or abroad, while on a business trip."
+            },
+            "wishlist": {
+                "title": "Wishlist",
+                "airlines": "Airlines",
+                "description": "Start your wishlist & set up separate trips. System will connect sub wallets, so you could collect Miles separately for each trip.",
+                "ideas": "Some ideas!",
+                "weekendEscape": {
+                    "title": "Weekend Escape",
+                    "description": "Short trip to nearby destination, to unwind over the weekend in one of the closest megacities, or in the quiet of mountain chalet or ski for couple of days or escape in the quiet of the beach house.",
+                    "note": "It just takes a short flight & one night stay (Sat-Sun) to escape, hence can be achieved with the least amount of Miles to target."
+                },
+                "familyHoliday": {
+                    "title": "Family Holiday",
+                    "description": "Take your family to annual holiday & create ever lasting memories. All paid by Miles awarded by our partners. Doesn't it sound as a perfect vacation?"
+                },
+                "buddiesTrip": {
+                    "title": "Buddies Trip",
+                    "description": "Have been planning a joint trip with your buddies or besties, classmates or siblings, but couldn't get it organised over years? Each person of the group can now set up personal target against common destination chosen & start collecting Miles. When all hit their targets, you are finally ready to take off!!!"
+                },
+                "dreamDestination": {
+                    "title": "Dream Destination",
+                    "description": "Tempting white sand beaches of Maldives, penthouse with bird's eye view over Central Park of New York or breathtaking winter scenes of Mont Blanc from an elegant mountain chalet. Have always been top of your mind? Yet, it keeps sleeping away as a perfect Dream.",
+                    "callToAction": "Choose your Dream Holiday Destination today, set the target & let the system keep topping it up daily. You can't keep postponing it forever."
+                },
+                "allocation": {
+                    "title": "P/S:",
+                    "description": "Allocate 10%, 15% or 20% from each transaction, when you set up the rule, so your wishlist sub-wallets tops up every time you receive Miles. Ex: if you set 10% rule, every time you receive 100 Miles, 10 miles go to Wishlist sub-wallet & 90 Miles top up \"Available to Redeem\" in your wallet."
+                }
+            },
+            "airlines": {
+                "title": "Airlines",
+                "description": "Collect IMS Miles every time you fly with our airline partners. Whether you're traveling for business or leisure, each flight brings you closer to your next destination.",
+                "benefits": "All your flights are automatically tracked, and miles are credited to your unified IMS Miles account. No need to register for multiple airline loyalty programs - everything is in one place.",
+                "howItWorks": "How It Works",
+                "step1": "Book your flight with any of our airline partners",
+                "step2": "Your flight is automatically tracked in the system",
+                "step3": "Miles are credited to your unified IMS Miles account",
+                "step4": "Use your miles for your next trip or save them for your dream destination"
+            },
+            "hotels": {
+                "title": "Hotels",
+                "description": "Every hotel stay earns you IMS Miles. Whether you're on a business trip or enjoying a vacation, your accommodation expenses turn into rewards.",
+                "benefits": "Stay at any of our partner hotels and automatically collect miles. No need to join multiple hotel loyalty programs - all your stays are unified in your IMS Miles account.",
+                "howItWorks": "How It Works",
+                "step1": "Book a stay at any of our partner hotels",
+                "step2": "Check in and enjoy your stay",
+                "step3": "Your stay is automatically tracked and miles are credited",
+                "step4": "Use your accumulated miles for future hotel stays or other rewards"
+            },
+            "banks": {
+                "title": "Banks",
+                "description": "Every time you use your card or QR from our partner bank to pay, you collect IMS Miles automatically.",
+                "benefits": "Monthly card payments and purchases all contribute to your miles balance. Make your daily spending work for you and bring you closer to your next vacation.",
+                "howItWorks": "How It Works",
+                "step1": "Use the card or QR payments from our partner banks to make everyday purchases",
+                "step2": "Every transaction automatically earns you IMS Miles",
+                "step3": "Track your monthly card payments and accumulated miles in one place",
+                "step4": "Redeem your miles for flights, hotels, or other travel rewards"
+            },
+            "restaurants": {
+                "title": "Restaurants",
+                "description": "Enjoy delicious meals and earn IMS Miles at the same time. Every dinner with family, business lunch with partners, or special occasion celebration at our partner restaurants earns you rewards.",
+                "benefits": "No need to join separate restaurant loyalty programs. All your dining experiences are unified in your IMS Miles account, making every meal a step closer to your next vacation.",
+                "howItWorks": "How It Works",
+                "step1": "Dine at any of our partner restaurants",
+                "step2": "Present your IMS number or QR from your account to the waiter",
+                "step3": "Miles are automatically credited to your account",
+                "step4": "Use your miles for flights and hotels"
+            },
+            "coffeeShops": {
+                "title": "Coffee Shops",
+                "description": "Your daily coffee ritual can now fuel your next vacation. Every cup of coffee, croissant, or snack purchased at our partner coffee shops earns you IMS Miles.",
+                "benefits": "Grab your morning coffee with friends, enjoy a takeaway, or relax with a pastry - all while collecting miles that bring you closer to your dream destination.",
+                "howItWorks": "How It Works",
+                "step1": "Visit any of our partner coffee shops",
+                "step2": "Present your IMS number or QR from your account to the waiter",
+                "step3": "Your activity automatically earn IMS Miles",
+                "step4": "Watch your miles accumulate with every visit"
+            },
+            "gyms": {
+                "title": "Gyms",
+                "description": "Stay fit and earn miles at the same time. Your monthly gym membership fees and fitness activities at our partner gyms automatically earn you IMS Miles.",
+                "benefits": "Investing in your health now rewards you with travel opportunities. Every workout session and membership payment brings you closer to your next adventure.",
+                "howItWorks": "How It Works",
+                "step1": "Join or visit any of our partner gyms",
+                "step2": "Pay your monthly membership fee",
+                "step3": "Stay active and earn miles with every payment",
+                "step4": "Use your fitness miles for your next travel adventure"
+            },
+            "gasStations": {
+                "title": "Gas Stations",
+                "description": "Every time you fill up your tank at our partner gas stations, you're filling up your miles account too. Turn your regular fuel stops into travel rewards.",
+                "benefits": "No matter if you're driving to work, on a road trip, or just running errands, every fuel purchase earns you IMS Miles that can be used for flights, hotels, and more.",
+                "howItWorks": "How It Works",
+                "step1": "Fill up your tank at any of our partner gas stations",
+                "step2": "Pay for your fuel purchase",
+                "step3": "Miles are automatically credited to your IMS account",
+                "step4": "Use your miles to fuel your next travel adventure"
+            }
+        },
+        "spendMiles": {
+            "title": "spend miles",
+            "subtitle": "Choose your next getaway",
+            "description": "Use your collected miles to book a weekend trip, a family vacation, or that dream holiday you’ve been planning for years — all paid for with miles from our partners!",
+            "bookFor": "From",
+            "flights": {
+                "title": "Flights",
+                "description": "Use your accumulated IMS Miles to book flights with our partner airlines. Whether you're planning a weekend getaway or a dream vacation, your miles can take you anywhere.",
+                "howItWorks": "How It Works",
+                "step1": "Choose your destination and travel dates",
+                "step2": "Select your flight and pay with IMS Miles",
+                "step3": "Receive your booking confirmation",
+                "step4": "Enjoy your trip paid entirely with miles"
+            },
+            "hotels": {
+                "title": "Hotels",
+                "description": "Redeem your IMS Miles for hotel stays at our partner properties. From luxury resorts to boutique hotels, your miles unlock amazing accommodation options worldwide.",
+                "howItWorks": "How It Works",
+                "step1": "Browse partner hotels and select your destination",
+                "step2": "Choose your check-in and check-out dates",
+                "step3": "Pay for your stay using IMS Miles",
+                "step4": "Enjoy your hotel stay paid with miles"
+            },
+            "options": {
+                "weekendEscape": {
+                    "destination": "Book your weekend",
+                    "subtitle": "Weekend Escape",
+                    "type": "Weekend Escape"
+                },
+                "teamUp": {
+                    "destination": "Team Up with your",
+                    "subtitle": "Trip with Friends",
+                    "type": "Round Trip"
+                },
+                "dreamHoliday": {
+                    "destination": "Save up for your",
+                    "subtitle": "Dream Holiday",
+                    "type": "Holiday Pack"
+                }
+            }
+        },
+        "statusBenefits": {
+            "title": "status benefits",
+            "subtitle": "Grow your status. \nUnlock greater benefits.",
+            "footerText": "As your status rises, IMS Savvy covers more of your travel — month after month. Even if you don’t fly often, you can grow and maintain your status through activity within our Partner Network.",
+            "discountLabel": "covered by IMS Savvy",
+            "benefits": "Benefits",
+            "statuses": {
+                "bronze": {
+                    "name": "Bronze",
+                    "description": "Start your journey with Bronze status. As a Bronze member, you begin earning IMS Miles and working towards higher status levels with exclusive benefits.",
+                    "benefit1": "Start earning IMS Miles from all partner activities",
+                    "benefit2": "Access to unified loyalty platform",
+                    "benefit3": "Track your progress towards Silver status",
+                    "benefit4": "Even if you are not taking enough flights to get to desired status, you can alternatively hit your monthly targets with our Partner Network"
+                },
+                "silver": {
+                    "name": "Silver",
+                    "description": "15% covered by IMS Savvy\nYou pay only 85% of your trip cost to book your flight or hotel",
+                    "benefit1": "15% DISCOUNT on flights and hotels",
+                    "benefit2": "Book with only 85% of trip cost in miles",
+                    "benefit3": "Access to exclusive Silver member benefits",
+                    "benefit4": "Priority customer support"
+                },
+                "gold": {
+                    "name": "Gold",
+                    "description": "25% covered by IMS Savvy\nYou pay only 75% of your trip cost to book your flight or hotel",
+                    "benefit1": "25% DISCOUNT on flights and hotels",
+                    "benefit2": "Book with only 75% of trip cost in miles",
+                    "benefit3": "Access to exclusive Gold member benefits",
+                    "benefit4": "Premium customer support and priority booking"
+                },
+                "platinum": {
+                    "name": "Platinum",
+                    "description": "35% covered by IMS Savvy\nYou pay only 65% of your trip cost to book your flight or hotel",
+                    "benefit1": "35% DISCOUNT on flights and hotels",
+                    "benefit2": "Book with only 65% of trip cost in miles",
+                    "benefit3": "Access to exclusive Platinum member benefits",
+                    "benefit4": "VIP customer support and highest priority booking"
+                }
+            }
+        },
+        "allExtras": {
+            "title": "extras",
+            "subtitle": "All Extras at your fingertips",
+            "description": "Redeem your miles for additional travel services whenever you need them: upgrades, lounge access, extra baggage and more.",
+            "benefits": {
+                "freeWifi": "Free Wifi",
+                "priorityCheckIn": "Priority Check in",
+                "priorityCheckInDesc": "at Business counter",
+                "loungeAccess": "Lounge Access",
+                "loungeAccessDesc": "to Business class Lounge",
+                "foodBeverages": "Food & Beverages",
+                "foodBeveragesDesc": "on flight",
+                "additionalLuggage": "Additional luggage",
+                "upgrade": "Upgrade",
+                "upgradeDesc": "to Premium economy or Business class"
+            }
+        },
+        "partnersBenefits": {
+            "title": "perks from partners",
+            "subtitle": "Exclusive Perks with your status",
+            "description": "Enjoy automatic benefits based on your level — from welcome bonuses to priority services and special partner privileges.",
+            "benefits": {
+                "welcomeBonus": "Welcome Bonus",
+                "freeMonthlyTreat": "Free monthly treat",
+                "priorityCheckIn": "Priority check in at business class counter",
+                "advanceSeatBooking": "Advance seat booking",
+                "extendedCheckIn": "Early check-in, late checkout"
+            }
+        },
+        "footer": {
+            "copyright": "All rights reserved"
+        },
+        "milesAnimation": {
+            "myAccount": "My account",
+            "milesTotal": "Miles, total",
+            "operations": {
+                "airlineAlmatyAstana": "Airline Almaty - Astana",
+                "hotel": "Hotel",
+                "restaurant": "Restaurant",
+                "airlineAstanaLondon": "Airline Astana - London",
+                "coffeeShop": "Coffee Shop",
+                "banking": "Banking",
+                "flightAlmatyDubai": "Flight Almaty - Dubai"
+            }
+        }
+    },
+    "transaction": {
+        "confirm": {
+            "success": "Transaction credited",
+            "sessionExpired": "Session expired"
+        }
+    }
+}

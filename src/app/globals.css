@@ -1,0 +1,131 @@
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+/* Landing page styles - imported after Tailwind to allow overrides */
+@import "../styles/index.css";
+
+:root {
+    --font-story-script: 'Story Script', cursive;
+}
+
+body {
+    @apply font-sans;
+}
+
+/* Dashboard specific styles - applied by default, overridden by landing page */
+body {
+    max-width: 2660px;
+    margin: 0 auto;
+    background: #1E1E1E;
+}
+
+@layer components {
+    h1 {
+        @apply text-[40px] leading-[48px] font-bold;
+    }
+
+    h2 {
+        @apply text-[32px] leading-[40px] font-semibold;
+    }
+
+    h3 {
+        @apply text-[28px] leading-[32px] font-medium;
+    }
+
+    h4 {
+        @apply text-[24px] leading-[28px] font-medium;
+    }
+
+    h5 {
+        @apply text-[20px] leading-[24px] font-medium;
+    }
+
+    .body-L-bold {
+        @apply text-[18px] leading-[24px] font-bold;
+    }
+    .body-L-semibold {
+        @apply text-[18px] leading-[24px] font-semibold;
+    }
+    .body-L-regular {
+        @apply text-[18px] leading-[24px] font-normal;
+    }
+
+    .body-M-bold {
+        @apply text-[16px] leading-[24px] font-bold;
+    }
+    .body-M-semibold {
+        @apply text-[16px] leading-[24px] font-semibold;
+    }
+    .body-M-regular {
+        @apply text-[16px] leading-[24px] font-normal;
+    }
+
+    .tag-bold {
+        @apply text-[14px] leading-[20px] font-bold;
+    }
+    .tag-regular {
+        @apply text-[14px] leading-[20px] font-normal;
+    }
+
+    .caption-bold {
+        @apply text-[12px] leading-[16px] font-bold;
+    }
+
+    .caption-regular {
+        @apply text-[12px] leading-[16px] font-normal;
+    }
+}
+
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e5e7eb;
+    border-radius: 100vh;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0062E4;
+    border-radius: 100vh;
+    border: 2px solid #e5e7eb;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+    height: 0;
+    width: 0;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #0062E4 #e5e7eb;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+.react-datepicker-wrapper {
+    margin-right: 20px;
+}
+
+svg {
+    flex-shrink: 1;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.rdp-weekdays { 
+    color: #fff;
+}
