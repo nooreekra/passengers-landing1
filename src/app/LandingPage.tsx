@@ -21,7 +21,7 @@ const LandingPage = ({ autoOpenAuth = false, qrCode = null }: { autoOpenAuth?: b
       <section className="hero-section">
         <BackgroundCarousel />
         <Header autoOpenAuth={autoOpenAuth} />
-        <div className="hero-content">
+        {/* <div className="hero-content">
           <div className="landing-content-wrapper">
             <div className="landing-content">
               <h1 className="landing-title">
@@ -38,7 +38,7 @@ const LandingPage = ({ autoOpenAuth = false, qrCode = null }: { autoOpenAuth?: b
               <MilesAnimation />
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* Collect Miles Section */}
@@ -46,14 +46,14 @@ const LandingPage = ({ autoOpenAuth = false, qrCode = null }: { autoOpenAuth?: b
         <CollectMiles />
       </section>
 
-      {/* Spend Miles Section */}
-      <section className="spend-section">
-        <SpendMiles />
-      </section>
-
       {/* Status Benefits Section */}
       <section className="status-section">
         <StatusBenefits />
+      </section>
+
+      {/* Spend Miles Section */}
+      <section className="spend-section">
+        <SpendMiles />
       </section>
 
       {/* All Extras Section */}
